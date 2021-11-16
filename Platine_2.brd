@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.225" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0622" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1769,7 +1769,7 @@ design rules under a new name.</description>
 <attribute name="I-V-TYP" value="10000mcd" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-DOM-TYP" value="522nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-PEAK-TYP" value="515nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-25.46" y="41.82" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="-25.4" y="41.91" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="V-F-TYP" value="3.4V" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-21.205" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
@@ -1782,7 +1782,7 @@ design rules under a new name.</description>
 <attribute name="I-V-TYP" value="10000mcd" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-DOM-TYP" value="522nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-PEAK-TYP" value="515nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="25.34" y="41.82" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="25.4" y="41.91" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="V-F-TYP" value="3.4V" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="29.595" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
@@ -1829,7 +1829,7 @@ design rules under a new name.</description>
 <attribute name="I-V-TYP" value="5000mcd" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-DOM-TYP" value="623nm" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-PEAK-TYP" value="631nm" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-25.46" y="79.92" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="-25.4" y="80.01" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054RS03000" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="V-F-TYP" value="1.9V" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-21.205" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
@@ -1842,7 +1842,7 @@ design rules under a new name.</description>
 <attribute name="I-V-TYP" value="10000mcd" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-DOM-TYP" value="522nm" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-PEAK-TYP" value="515nm" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="25.34" y="79.92" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="25.4" y="80.01" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="V-F-TYP" value="3.4V" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="29.595" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
@@ -1855,7 +1855,7 @@ design rules under a new name.</description>
 <attribute name="I-V-TYP" value="10000mcd" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-DOM-TYP" value="522nm" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-PEAK-TYP" value="515nm" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="25.34" y="16.42" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="25.4" y="16.51" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="V-F-TYP" value="3.4V" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="29.595" y="12.617" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
@@ -1868,7 +1868,7 @@ design rules under a new name.</description>
 <attribute name="I-V-TYP" value="10000mcd" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-DOM-TYP" value="522nm" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-PEAK-TYP" value="515nm" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-25.46" y="16.42" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="-25.4" y="16.51" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="V-F-TYP" value="3.4V" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-21.205" y="12.617" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
@@ -1905,7 +1905,7 @@ design rules under a new name.</description>
 <attribute name="I-V-TYP" value="10000mcd" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-DOM-TYP" value="522nm" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-PEAK-TYP" value="515nm" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-0.06" y="79.92" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="0" y="80.01" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="V-F-TYP" value="3.4V" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="4.195" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
