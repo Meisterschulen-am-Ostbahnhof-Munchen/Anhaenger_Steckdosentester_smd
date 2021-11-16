@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="250" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -232,10 +232,10 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjRDIwMjAwMTIwMjU2OTQxODU2" f3durn="urn:adsk.wipprod:dm.lineage:tvl91tQ5Q7SKJF5JUDfTDw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="327412b5-cf20-418b-8d39-d36822d64ee5" lastsyncedrevisionid="327412b5-cf20-418b-8d39-d36822d64ee5" lastboardhashguid="06f78bea-708b-ad39-e7a4-ea7f4c54d74f" lastpushedtime="2021-11-13T06:48:51Z" linktopcb3d="true"/>
 <plain>
-<wire x1="-45.72" y1="-5.08" x2="45.72" y2="-5.08" width="0" layer="20"/>
-<wire x1="45.72" y1="-5.08" x2="45.72" y2="96.52" width="0" layer="20"/>
-<wire x1="45.72" y1="96.52" x2="-45.72" y2="96.52" width="0" layer="20"/>
-<wire x1="-45.72" y1="96.52" x2="-45.72" y2="-5.08" width="0" layer="20"/>
+<wire x1="-44.45" y1="-6.35" x2="44.45" y2="-6.35" width="0" layer="20"/>
+<wire x1="44.45" y1="-6.35" x2="44.45" y2="95.25" width="0" layer="20"/>
+<wire x1="44.45" y1="95.25" x2="-44.45" y2="95.25" width="0" layer="20"/>
+<wire x1="-44.45" y1="95.25" x2="-44.45" y2="-6.35" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="DEUTSCH-PCB">
@@ -1733,7 +1733,7 @@ design rules under a new name.</description>
 <attribute name="I-V-TYP" value="10000mcd" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-DOM-TYP" value="522nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-PEAK-TYP" value="515nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-29.12" y="38.04" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="-25.46" y="41.82" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="V-F-TYP" value="3.4V" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-21.205" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
@@ -1746,29 +1746,186 @@ design rules under a new name.</description>
 <attribute name="I-V-TYP" value="10000mcd" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-DOM-TYP" value="522nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LAMDA-PEAK-TYP" value="515nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="21.68" y="38.04" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="25.34" y="41.82" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="V-F-TYP" value="3.4V" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="29.595" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="-25.4" y="48.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="-24.1046" y="50.8" size="0.9906" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="-25.8826" y="49.8856" size="0.9906" layer="27" ratio="10" rot="R270"/>
+<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="-31.75" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="-33.0454" y="33.02" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-31.2674" y="33.9344" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="25.4" y="48.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="26.6954" y="50.8" size="0.9906" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="24.9174" y="49.8856" size="0.9906" layer="27" ratio="10" rot="R270"/>
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="31.75" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.4546" y="33.02" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="32.2326" y="33.9344" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="LICHT_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Rot" x="-25.4" y="57.15" smashed="yes" rot="R90">
+<attribute name="ABSTRAHLWINKEL" value="30°" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054RS03000.pdf" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EMITTING-COLOR" value="Red" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="I-V-TYP" value="5000mcd" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="623nm" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="631nm" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-25.4" y="60.96" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="151054RS03000" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="V-F-TYP" value="1.9V" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-21.205" y="57.067" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+</element>
+<element name="LICHT_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Rot" x="25.4" y="57.15" smashed="yes" rot="R90">
+<attribute name="ABSTRAHLWINKEL" value="30°" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054RS03000.pdf" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EMITTING-COLOR" value="Red" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="I-V-TYP" value="5000mcd" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="623nm" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="631nm" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="25.4" y="60.96" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="151054RS03000" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="V-F-TYP" value="1.9V" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="29.595" y="57.067" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+</element>
+<element name="BREMSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Rot" x="-25.4" y="76.2" smashed="yes" rot="R90">
+<attribute name="ABSTRAHLWINKEL" value="30°" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054RS03000.pdf" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EMITTING-COLOR" value="Red" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="I-V-TYP" value="5000mcd" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="623nm" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="631nm" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-25.46" y="79.92" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="151054RS03000" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="V-F-TYP" value="1.9V" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-21.205" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+</element>
+<element name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Grün" x="25.4" y="76.2" smashed="yes" rot="R90">
+<attribute name="ABSTRAHLWINKEL" value="30°" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EMITTING-COLOR" value="Green" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="I-V-TYP" value="10000mcd" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="522nm" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="515nm" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="25.34" y="79.92" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="V-F-TYP" value="3.4V" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="29.595" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+</element>
+<element name="STROMVERSORGUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Grün" x="25.4" y="12.7" smashed="yes" rot="R90">
+<attribute name="ABSTRAHLWINKEL" value="30°" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EMITTING-COLOR" value="Green" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="I-V-TYP" value="10000mcd" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="522nm" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="515nm" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="25.34" y="16.42" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="V-F-TYP" value="3.4V" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="29.595" y="12.617" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+</element>
+<element name="LADELEITUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Grün" x="-25.4" y="12.7" smashed="yes" rot="R90">
+<attribute name="ABSTRAHLWINKEL" value="30°" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EMITTING-COLOR" value="Green" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="I-V-TYP" value="10000mcd" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="522nm" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="515nm" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-25.46" y="16.42" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="151054GS03000" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="V-F-TYP" value="3.4V" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-21.205" y="12.617" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+</element>
+<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="-31.75" y="54.61" smashed="yes" rot="R90">
+<attribute name="NAME" x="-33.0454" y="52.07" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-31.2674" y="52.9844" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="31.75" y="54.61" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.4546" y="52.07" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="32.2326" y="52.9844" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="-31.75" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="-33.0454" y="71.12" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-31.2674" y="72.0344" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="31.75" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.4546" y="71.12" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="32.2326" y="72.0344" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="31.75" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.4546" y="7.62" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="32.2326" y="8.5344" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="-31.75" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="-33.0454" y="7.62" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-31.2674" y="8.5344" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Grün" x="0" y="76.2" smashed="yes" rot="R90">
+<attribute name="ABSTRAHLWINKEL" value="30°" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EMITTING-COLOR" value="Green" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="I-V-TYP" value="10000mcd" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-DOM-TYP" value="522nm" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LAMDA-PEAK-TYP" value="515nm" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-0.06" y="79.92" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="151054GS03000" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="V-F-TYP" value="3.4V" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="4.195" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+</element>
+<element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="6.35" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.0546" y="71.12" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="6.8326" y="72.0344" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
 </elements>
 <signals>
-<signal name="BLINKER_LINKS">
+<signal name="BLINKER_LINKS_1">
 <contactref element="X2" pad="1"/>
 <contactref element="BLINKER_LINKS" pad="2"/>
-<wire x1="-11.125" y1="11.125" x2="-11.125" y2="2.2225" width="0.8128" layer="1"/>
-<wire x1="-25.4" y1="36.83" x2="-25.4" y2="25.4" width="0.8128" layer="1"/>
-<wire x1="-25.4" y1="25.4" x2="-11.125" y2="11.125" width="0.8128" layer="1"/>
+<wire x1="-25.4" y1="36.83" x2="-11.125" y2="2.2225" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MASSE">
+<signal name="NEBELSCHLUSSLEUCHTE_2">
+<contactref element="X2" pad="2"/>
+<contactref element="NEBELSCHLUSSLEUCHTE" pad="2"/>
+<wire x1="-6.675" y1="2.2225" x2="25.4" y2="74.93" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LADELEITUNG_10">
+<contactref element="X2" pad="10"/>
+<contactref element="LADELEITUNG" pad="2"/>
+<wire x1="-2.225" y1="-2.2225" x2="-25.4" y2="11.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BLINKER_RECHTS_4">
+<contactref element="X2" pad="4"/>
+<contactref element="BLINKER_RECHTS" pad="2"/>
+<wire x1="2.225" y1="2.2225" x2="25.4" y2="36.83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="STROMVERSORGUNG_9">
+<contactref element="X2" pad="9"/>
+<contactref element="STROMVERSORGUNG" pad="2"/>
+<wire x1="2.225" y1="-2.2225" x2="25.4" y2="11.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LICHT_RECHTS_5">
+<contactref element="X2" pad="5"/>
+<contactref element="LICHT_RECHTS" pad="2"/>
+<wire x1="6.675" y1="2.2225" x2="25.4" y2="55.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RUECKFAHRLEUCHTE_8">
+<contactref element="X2" pad="8"/>
+<contactref element="RUECKFAHRLEUCHTE" pad="2"/>
+<wire x1="6.675" y1="-2.2225" x2="0" y2="74.93" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BREMSLEUCHTE_6">
+<contactref element="X2" pad="6"/>
+<contactref element="BREMSLEUCHTE" pad="2"/>
+<wire x1="11.125" y1="2.2225" x2="-25.4" y2="74.93" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LICHT_LINKS_7">
+<contactref element="X2" pad="7"/>
+<contactref element="LICHT_LINKS" pad="2"/>
+<wire x1="11.125" y1="-2.2225" x2="-25.4" y2="55.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MASSE_1_8">
 <contactref element="X2" pad="3"/>
 <contactref element="R2" pad="1"/>
 <contactref element="R1" pad="1"/>
@@ -1784,50 +1941,70 @@ design rules under a new name.</description>
 <vertex x="50.8" y="-10.16"/>
 <vertex x="-50.8" y="-10.16"/>
 </polygon>
-</signal>
-<signal name="NEBELSCHLUSSLEUCHTE">
-<contactref element="X2" pad="2"/>
-</signal>
-<signal name="MASSE_LADELEITUNG">
-<contactref element="X2" pad="11"/>
-</signal>
-<signal name="LADELEITUNG">
-<contactref element="X2" pad="10"/>
-</signal>
-<signal name="BLINKER_RECHTS">
-<contactref element="X2" pad="4"/>
-<contactref element="BLINKER_RECHTS" pad="2"/>
-<wire x1="25.4" y1="31.75" x2="25.4" y2="36.83" width="0.8128" layer="1"/>
-<wire x1="2.225" y1="2.2225" x2="2.225" y2="8.575" width="0.8128" layer="1"/>
-<wire x1="2.225" y1="8.575" x2="25.4" y2="31.75" width="0.8128" layer="1"/>
-</signal>
-<signal name="STROMVERSORGUNG">
-<contactref element="X2" pad="9"/>
-</signal>
-<signal name="LICHT_RECHTS">
-<contactref element="X2" pad="5"/>
-</signal>
-<signal name="RUECKFAHRLEUCHTE">
-<contactref element="X2" pad="8"/>
-</signal>
-<signal name="BREMSLEUCHTE">
-<contactref element="X2" pad="6"/>
-</signal>
-<signal name="LICHT_LINKS">
-<contactref element="X2" pad="7"/>
-</signal>
-<signal name="MASSE_9_12">
-<contactref element="X2" pad="12"/>
+<contactref element="R3" pad="1"/>
+<contactref element="R4" pad="1"/>
+<contactref element="R5" pad="1"/>
+<contactref element="R6" pad="1"/>
+<contactref element="R9" pad="1"/>
+<wire x1="31.75" y1="69.85" x2="6.35" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.75" y1="69.85" x2="31.75" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="50.8" x2="-31.75" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.75" y1="50.8" x2="31.75" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.225" y1="2.2225" x2="-31.75" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.75" y1="31.75" x2="-2.225" y2="2.2225" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="31.75" x2="-31.75" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="BLINKER_LINKS" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="-25.4" y1="44.45" x2="-25.4" y2="39.37" width="0.8128" layer="1"/>
+<wire x1="-25.4" y1="39.37" x2="-31.75" y2="39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="BLINKER_RECHTS" pad="1"/>
 <contactref element="R1" pad="2"/>
-<wire x1="25.4" y1="44.45" x2="25.4" y2="39.37" width="0.8128" layer="1"/>
+<wire x1="31.75" y1="39.37" x2="25.4" y2="39.37" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="R3" pad="2"/>
+<contactref element="LICHT_LINKS" pad="1"/>
+<wire x1="-25.4" y1="58.42" x2="-31.75" y2="58.42" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R4" pad="2"/>
+<contactref element="LICHT_RECHTS" pad="1"/>
+<wire x1="25.4" y1="58.42" x2="31.75" y2="58.42" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="R5" pad="2"/>
+<contactref element="BREMSLEUCHTE" pad="1"/>
+<wire x1="-25.4" y1="77.47" x2="-31.75" y2="77.47" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="R6" pad="2"/>
+<contactref element="NEBELSCHLUSSLEUCHTE" pad="1"/>
+<wire x1="25.4" y1="77.47" x2="31.75" y2="77.47" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="R7" pad="2"/>
+<contactref element="STROMVERSORGUNG" pad="1"/>
+<wire x1="25.4" y1="13.97" x2="31.75" y2="13.97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="R8" pad="2"/>
+<contactref element="LADELEITUNG" pad="1"/>
+<wire x1="-25.4" y1="13.97" x2="-31.75" y2="13.97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="R9" pad="2"/>
+<contactref element="RUECKFAHRLEUCHTE" pad="1"/>
+<wire x1="0" y1="77.47" x2="6.35" y2="77.47" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MASSE_9">
+<contactref element="X2" pad="12"/>
+<contactref element="R7" pad="1"/>
+<contactref element="R8" pad="1"/>
+<wire x1="-11.125" y1="-2.2225" x2="31.75" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.75" y1="6.35" x2="-11.125" y2="-2.2225" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

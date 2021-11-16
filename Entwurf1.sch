@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5130,6 +5130,47 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="frames" urn="urn:adsk.eagle:library:229">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A4P-LOC" urn="urn:adsk.eagle:symbol:13888/1" library_version="1">
+<wire x1="85.09" y1="3.81" x2="85.09" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="85.09" y1="24.13" x2="139.065" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="24.13" x2="180.34" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="170.18" y1="3.81" x2="170.18" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="170.18" y1="8.89" x2="180.34" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="170.18" y1="8.89" x2="139.065" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="8.89" x2="139.065" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="8.89" x2="139.065" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="13.97" x2="180.34" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="13.97" x2="139.065" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="19.05" x2="180.34" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="19.05" x2="139.065" y2="24.13" width="0.1016" layer="94"/>
+<text x="140.97" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="140.97" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="154.305" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="140.716" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="184.15" y2="265.43" columns="4" rows="6" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A4P-LOC" urn="urn:adsk.eagle:component:13946/1" prefix="FRAME" uservalue="yes" library_version="1">
+<description>A4P LOC</description>
+<gates>
+<gate name="G$1" symbol="A4P-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5145,6 +5186,22 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Gelb"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
+<part name="LICHT_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054RS03000" value="Rot"/>
+<part name="LICHT_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054RS03000" value="Rot"/>
+<part name="BREMSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054RS03000" value="Rot"/>
+<part name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Grün"/>
+<part name="STROMVERSORGUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Grün"/>
+<part name="LADELEITUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Grün"/>
+<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
+<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
+<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
+<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
+<part name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Grün"/>
+<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5159,142 +5216,352 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="X2" gate="MECHSYMBOL" x="21.59" y="20.32" smashed="yes">
 <attribute name="PART" x="19.05" y="26.67" size="1.778" layer="95"/>
 </instance>
-<instance part="BLINKER_LINKS" gate="G$1" x="101.6" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.528" y="79.884" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="105.036" y="79.628" size="1.27" layer="96" rot="R90" align="bottom-center"/>
-</instance>
-<instance part="BLINKER_RECHTS" gate="G$1" x="114.3" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="110.228" y="79.884" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="117.736" y="79.628" size="1.27" layer="96" rot="R90" align="bottom-center"/>
-</instance>
-<instance part="R2" gate="G$1" x="101.6" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.1014" y="64.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="104.902" y="64.77" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1" gate="G$1" x="114.3" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="112.8014" y="64.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="117.602" y="64.77" size="1.778" layer="96" rot="R90"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="140.97" y="15.24" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="140.97" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="154.305" y="5.08" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="BLINKER_LINKS" class="0">
+<net name="BLINKER_LINKS_1" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
 <label x="43.18" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="BLINKER_LINKS" gate="G$1" pin="+"/>
-<wire x1="101.6" y1="83.82" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
-<label x="101.6" y="88.9" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
-<net name="MASSE" class="0">
-<segment>
-<pinref part="X2" gate="G$1" pin="3"/>
-<wire x1="22.86" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<label x="43.18" y="55.88" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="63.5" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
-<label x="101.6" y="58.42" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="63.5" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
-<label x="114.3" y="58.42" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="NEBELSCHLUSSLEUCHTE" class="0">
+<net name="NEBELSCHLUSSLEUCHTE_2" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 <label x="43.18" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MASSE_LADELEITUNG" class="0">
-<segment>
-<pinref part="X2" gate="G$1" pin="11"/>
-<wire x1="22.86" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="43.18" y="58.42" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LADELEITUNG" class="0">
+<net name="LADELEITUNG_10" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="10"/>
 <wire x1="22.86" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 <label x="43.18" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="BLINKER_RECHTS" class="0">
+<net name="BLINKER_RECHTS_4" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="4"/>
 <wire x1="22.86" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
 <label x="43.18" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="BLINKER_RECHTS" gate="G$1" pin="+"/>
-<wire x1="114.3" y1="83.82" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
-<label x="114.3" y="88.9" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
-<net name="STROMVERSORGUNG" class="0">
+<net name="STROMVERSORGUNG_9" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="9"/>
 <wire x1="22.86" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <label x="43.18" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LICHT_RECHTS" class="0">
+<net name="LICHT_RECHTS_5" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="5"/>
 <wire x1="22.86" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <label x="43.18" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="RUECKFAHRLEUCHTE" class="0">
+<net name="RUECKFAHRLEUCHTE_8" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="8"/>
 <wire x1="22.86" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
 <label x="43.18" y="43.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="BREMSLEUCHTE" class="0">
+<net name="BREMSLEUCHTE_6" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="6"/>
 <wire x1="22.86" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <label x="43.18" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LICHT_LINKS" class="0">
+<net name="LICHT_LINKS_7" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="7"/>
 <wire x1="22.86" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <label x="43.18" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MASSE_9_12" class="0">
+<net name="MASSE_1_8" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="3"/>
+<wire x1="22.86" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<label x="43.18" y="55.88" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MASSE_9" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="12"/>
 <wire x1="22.86" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <label x="43.18" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="140.97" y="15.24" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="140.97" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="154.305" y="5.08" size="2.54" layer="94"/>
+</instance>
+<instance part="BLINKER_LINKS" gate="G$1" x="40.64" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.568" y="100.204" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="44.076" y="99.948" size="1.27" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="BLINKER_RECHTS" gate="G$1" x="53.34" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.268" y="100.204" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="56.776" y="99.948" size="1.27" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="R2" gate="G$1" x="40.64" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.1414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="43.942" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R1" gate="G$1" x="53.34" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.8414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="56.642" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LICHT_LINKS" gate="G$1" x="66.04" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="61.968" y="100.204" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="69.476" y="99.948" size="1.27" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="LICHT_RECHTS" gate="G$1" x="78.74" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="74.668" y="100.204" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="82.176" y="99.948" size="1.27" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="BREMSLEUCHTE" gate="G$1" x="91.44" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.368" y="100.204" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="94.876" y="99.948" size="1.27" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="NEBELSCHLUSSLEUCHTE" gate="G$1" x="104.14" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.068" y="100.204" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="107.576" y="99.948" size="1.27" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="STROMVERSORGUNG" gate="G$1" x="116.84" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.768" y="100.204" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="120.276" y="99.948" size="1.27" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="LADELEITUNG" gate="G$1" x="129.54" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="125.468" y="100.204" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="132.976" y="99.948" size="1.27" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="R3" gate="G$1" x="66.04" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.5414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="69.342" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R4" gate="G$1" x="78.74" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.2414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="82.042" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R5" gate="G$1" x="91.44" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.9414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="94.742" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R6" gate="G$1" x="104.14" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.6414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="107.442" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R7" gate="G$1" x="116.84" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.3414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.142" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R8" gate="G$1" x="129.54" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="128.0414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="132.842" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="RUECKFAHRLEUCHTE" gate="G$1" x="142.24" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="138.168" y="100.204" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="145.676" y="99.948" size="1.27" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="R9" gate="G$1" x="142.24" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="140.7414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="145.542" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="BLINKER_LINKS_1" class="0">
+<segment>
+<pinref part="BLINKER_LINKS" gate="G$1" pin="+"/>
+<wire x1="40.64" y1="104.14" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
+<label x="40.64" y="109.22" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="NEBELSCHLUSSLEUCHTE_2" class="0">
+<segment>
+<pinref part="NEBELSCHLUSSLEUCHTE" gate="G$1" pin="+"/>
+<wire x1="104.14" y1="104.14" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
+<label x="104.14" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LADELEITUNG_10" class="0">
+<segment>
+<pinref part="LADELEITUNG" gate="G$1" pin="+"/>
+<wire x1="129.54" y1="104.14" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
+<label x="129.54" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="BLINKER_RECHTS_4" class="0">
+<segment>
+<pinref part="BLINKER_RECHTS" gate="G$1" pin="+"/>
+<wire x1="53.34" y1="104.14" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
+<label x="53.34" y="109.22" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="STROMVERSORGUNG_9" class="0">
+<segment>
+<pinref part="STROMVERSORGUNG" gate="G$1" pin="+"/>
+<wire x1="116.84" y1="104.14" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
+<label x="116.84" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LICHT_RECHTS_5" class="0">
+<segment>
+<pinref part="LICHT_RECHTS" gate="G$1" pin="+"/>
+<wire x1="78.74" y1="104.14" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<label x="78.74" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="RUECKFAHRLEUCHTE_8" class="0">
+<segment>
+<pinref part="RUECKFAHRLEUCHTE" gate="G$1" pin="+"/>
+<wire x1="142.24" y1="104.14" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
+<label x="142.24" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="BREMSLEUCHTE_6" class="0">
+<segment>
+<pinref part="BREMSLEUCHTE" gate="G$1" pin="+"/>
+<wire x1="91.44" y1="104.14" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
+<label x="91.44" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LICHT_LINKS_7" class="0">
+<segment>
+<pinref part="LICHT_LINKS" gate="G$1" pin="+"/>
+<wire x1="66.04" y1="104.14" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
+<label x="66.04" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="MASSE_1_8" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="83.82" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<label x="40.64" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="83.82" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<label x="53.34" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="83.82" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
+<label x="66.04" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="83.82" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
+<label x="78.74" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="83.82" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
+<label x="91.44" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="83.82" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
+<label x="104.14" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="83.82" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
+<label x="142.24" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="BLINKER_LINKS" gate="G$1" pin="-"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="76.2" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="96.52" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="BLINKER_RECHTS" gate="G$1" pin="-"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="73.66" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="93.98" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="96.52" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="LICHT_LINKS" gate="G$1" pin="-"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="93.98" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="LICHT_RECHTS" gate="G$1" pin="-"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="96.52" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="BREMSLEUCHTE" gate="G$1" pin="-"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="93.98" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="NEBELSCHLUSSLEUCHTE" gate="G$1" pin="-"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="96.52" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="STROMVERSORGUNG" gate="G$1" pin="-"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="93.98" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="LADELEITUNG" gate="G$1" pin="-"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="96.52" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="RUECKFAHRLEUCHTE" gate="G$1" pin="-"/>
+</segment>
+</net>
+<net name="MASSE_9" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="83.82" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<label x="116.84" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="83.82" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
+<label x="129.54" y="78.74" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
