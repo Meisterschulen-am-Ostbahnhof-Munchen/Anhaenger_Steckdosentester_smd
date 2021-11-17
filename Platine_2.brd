@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -230,7 +230,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjRDIwMjAwMTIwMjU2OTQxODU2" f3durn="urn:adsk.wipprod:dm.lineage:tvl91tQ5Q7SKJF5JUDfTDw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="3a954045-5351-4926-9e57-881401d313c4" lastsyncedrevisionid="3a954045-5351-4926-9e57-881401d313c4" lastboardhashguid="059136c5-2acf-ebf2-a7e0-f3bbbaeb21e5" lastpushedtime="2021-11-16T17:06:46Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjRDIwMjAwMTIwMjU2OTQxODU2" f3durn="urn:adsk.wipprod:dm.lineage:IUqRmy3CQzOHNwqusI1-PQ" pcbguid="4c452567-f71f-4f3b-8b2b-90f16c76dd37" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="2a4d4074-0cd2-4306-9f60-acfb19890fe7" lastsyncedrevisionid="2a4d4074-0cd2-4306-9f60-acfb19890fe7" lastboardhashguid="e7ef53f0-1e01-685d-f884-12b6b30a0554" lastpushedtime="2021-11-17T06:51:52Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-44.45" y1="92.25" x2="-44.45" y2="-3.35" width="0" layer="20"/>
 <wire x1="-44.45" y1="-3.35" x2="-41.45" y2="-6.35" width="0" layer="20" curve="90"/>
