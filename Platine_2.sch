@@ -231,9 +231,9 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="DEUTSCH-PCB">
+<library name="DEUTSCH-PCB" urn="urn:adsk.eagle:library:32238108">
 <packages>
-<package name="DTF13-12PA">
+<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/1" library_version="2">
 <wire x1="-20.8024" y1="-24.7015" x2="-20.8024" y2="-11.2395" width="0.1" layer="21"/>
 <wire x1="-20.1674" y1="-25.3365" x2="-20.1674" y2="-10.6045" width="0" layer="51"/>
 <wire x1="-18.2075875" y1="2.996321875" x2="-14.6175" y2="4.2545" width="0.1" layer="21"/>
@@ -315,8 +315,15 @@
 <circle x="17.1325" y="0" radius="3" width="0.127" layer="22"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="DTF13-12PA"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="DTF15-12PA">
+<symbol name="DTF15-12PA" urn="urn:adsk.eagle:symbol:32238111/1" library_version="2">
 <rectangle x1="0" y1="12.319" x2="1.524" y2="13.081" layer="94"/>
 <rectangle x1="0" y1="9.779" x2="1.524" y2="10.541" layer="94"/>
 <rectangle x1="0" y1="7.239" x2="1.524" y2="8.001" layer="94"/>
@@ -345,7 +352,7 @@
 <text x="0" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <text x="0" y="-22.86" size="1.27" layer="96">&gt;ARTIKEL_NR</text>
 </symbol>
-<symbol name="DTF13-12PD_FRONT">
+<symbol name="DTF13-12PD_FRONT" urn="urn:adsk.eagle:symbol:32238110/1" library_version="2">
 <circle x="-0.555625" y="1.641475" radius="0.1984375" width="0" layer="94"/>
 <circle x="-1.666875" y="1.641475" radius="0.1984375" width="0" layer="94"/>
 <circle x="-2.778125" y="1.641475" radius="0.1984375" width="0" layer="94"/>
@@ -541,7 +548,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DTF13-12PA" prefix="X">
+<deviceset name="DTF13-12PA" urn="urn:adsk.eagle:component:32238113/2" prefix="X" library_version="2">
 <description>DTF13-12PA Connector System : Draht-an-Leiterplatte, Kabel-an-Gerät&lt;p&gt;
 Alias NummerZPF000000000130557&lt;br&gt;
 &lt;a href="http://www.te.com/deu-de/product-DTF13-12PA.html"&gt; Home-Page&lt;/a&gt;</description>
@@ -565,6 +572,9 @@ Alias NummerZPF000000000130557&lt;br&gt;
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32238112/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="ARTIKEL_NR" value="522012"/>
@@ -5315,7 +5325,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </class>
 </classes>
 <parts>
-<part name="X2" library="DEUTSCH-PCB" deviceset="DTF13-12PA" device=""/>
+<part name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" deviceset="DTF13-12PA" device="" package3d_urn="urn:adsk.eagle:package:32238112/2"/>
 <part name="BLINKER_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Gelb"/>
 <part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Gelb"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>

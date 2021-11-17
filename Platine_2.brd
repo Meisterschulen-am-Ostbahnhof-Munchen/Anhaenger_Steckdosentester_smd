@@ -230,7 +230,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjRDIwMjAwMTIwMjU2OTQxODU2" f3durn="urn:adsk.wipprod:dm.lineage:IUqRmy3CQzOHNwqusI1-PQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="4bd172e8-aa06-4833-81b5-f9206e29f622" lastsyncedrevisionid="4bd172e8-aa06-4833-81b5-f9206e29f622" lastboardhashguid="836c3ede-1ee6-a0b7-3cca-db3b111b415d" lastpushedtime="2021-11-17T12:44:38Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjRDIwMjAwMTIwMjU2OTQxODU2" f3durn="urn:adsk.wipprod:dm.lineage:IUqRmy3CQzOHNwqusI1-PQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="bda54fb3-516c-4031-9e2e-c0a6072a4212" lastsyncedrevisionid="bda54fb3-516c-4031-9e2e-c0a6072a4212" lastboardhashguid="dc5243cd-dc2f-036f-33ad-c6603df929d2" lastpushedtime="2021-11-17T13:39:09Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-44.45" y1="92.25" x2="-44.45" y2="-3.35" width="0" layer="20"/>
 <wire x1="-44.45" y1="-3.35" x2="-41.45" y2="-6.35" width="0" layer="20" curve="90"/>
@@ -265,9 +265,9 @@
 <circle x="-41.45" y="-3.35" radius="3" width="0.1524" layer="22"/>
 </plain>
 <libraries>
-<library name="DEUTSCH-PCB">
+<library name="DEUTSCH-PCB" urn="urn:adsk.eagle:library:32238108">
 <packages>
-<package name="DTF13-12PA">
+<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/1" library_version="2">
 <wire x1="-20.8024" y1="-24.7015" x2="-20.8024" y2="-11.2395" width="0.1" layer="21"/>
 <wire x1="-20.1674" y1="-25.3365" x2="-20.1674" y2="-10.6045" width="0" layer="51"/>
 <wire x1="-18.2075875" y1="2.996321875" x2="-14.6175" y2="4.2545" width="0.1" layer="21"/>
@@ -349,6 +349,13 @@
 <circle x="17.1325" y="0" radius="3" width="0.127" layer="22"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="DTF13-12PA"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="Wurth_LEDs_WL-TMRW" urn="urn:adsk.eagle:library:19063499">
 <description>&lt;BR&gt;Wurth Elektronik - LEDs - Singnal LEDs - TOP LED - THT Round - WL-TMRW&lt;br&gt;&lt;Hr&gt;
@@ -1803,7 +1810,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="X2" library="DEUTSCH-PCB" package="DTF13-12PA" value="DTF13-12PA" x="0" y="0" smashed="yes">
+<element name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" package="DTF13-12PA" package3d_urn="urn:adsk.eagle:package:32238112/2" value="DTF13-12PA" x="0" y="0" smashed="yes">
 <attribute name="ARTIKEL_NR" value="522012" x="-18" y="-33" size="1.524" layer="27"/>
 <attribute name="NAME" x="-19" y="5" size="1.778" layer="25"/>
 <attribute name="VALUE" x="-18" y="-35.5" size="1.778" layer="27"/>
