@@ -1,0 +1,3 @@
+[submodule "elektro"]
+	path = elektro
+	url = git@github.com:Meisterschulen-am-Ostbahnhof-Munchen/elektro.git
