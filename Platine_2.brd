@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -267,14 +267,11 @@
 <libraries>
 <library name="DEUTSCH-PCB" urn="urn:adsk.eagle:library:32238108">
 <packages>
-<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/1" library_version="2">
+<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/2" library_version="4">
 <wire x1="-20.8024" y1="-24.7015" x2="-20.8024" y2="-11.2395" width="0.1" layer="21"/>
 <wire x1="-20.1674" y1="-25.3365" x2="-20.1674" y2="-10.6045" width="0" layer="51"/>
-<wire x1="-18.2075875" y1="2.996321875" x2="-14.6175" y2="4.2545" width="0.1" layer="21"/>
 <wire x1="-18.242" y1="-25.3365" x2="-18.242" y2="-10.6045" width="0" layer="51"/>
 <wire x1="-17.602" y1="-29.6545" x2="-17.602" y2="-25.429109375" width="0.1" layer="21"/>
-<wire x1="-17.602" y1="-25.429109375" x2="-17.602" y2="-10.511890625" width="0.1" layer="21"/>
-<wire x1="-17.602" y1="-10.511890625" x2="-17.602" y2="-3.14373125" width="0.1" layer="21"/>
 <wire x1="17.196" y1="-30.0355" x2="-17.221" y2="-30.0355" width="0.1" layer="21"/>
 <wire x1="17.577" y1="-29.6545" x2="-17.602" y2="-29.6545" width="0" layer="51"/>
 <wire x1="-15.2525" y1="1.7145" x2="-15.2525" y2="-4.0005" width="0" layer="51"/>
@@ -298,20 +295,12 @@
 <wire x1="15.037" y1="-30.0355" x2="15.037" y2="-4.0005" width="0" layer="51"/>
 <wire x1="15.2275" y1="1.7145" x2="15.2275" y2="-4.0005" width="0" layer="51"/>
 <wire x1="17.577" y1="-29.6545" x2="17.577" y2="-25.429109375" width="0.1" layer="21"/>
-<wire x1="17.577" y1="-25.429109375" x2="17.577" y2="-10.511890625" width="0.1" layer="21"/>
-<wire x1="17.577" y1="-10.511890625" x2="17.577" y2="-3.14373125" width="0.1" layer="21"/>
-<wire x1="-14.6175" y1="4.2545" x2="14.5925" y2="4.2545" width="0.1" layer="21"/>
 <wire x1="18.217" y1="-10.6045" x2="18.217" y2="-25.3365" width="0" layer="51"/>
 <wire x1="20.1424" y1="-25.3365" x2="20.1424" y2="-10.6045" width="0" layer="51"/>
 <wire x1="20.7774" y1="-24.7015" x2="20.7774" y2="-11.2395" width="0.1" layer="21"/>
-<wire x1="14.5925" y1="4.2545" x2="18.1825875" y2="2.996321875" width="0.1" layer="21"/>
-<wire x1="-15.142559375" y1="2.4537" x2="-17.602" y2="-3.14373125" width="0.1" layer="21" curve="211.344467"/>
-<wire x1="17.577" y1="-3.14373125" x2="15.117559375" y2="2.4537" width="0.1" layer="21" curve="211.344467"/>
 <wire x1="-12.7125" y1="4.2545" x2="-15.2525" y2="1.7145" width="0" layer="51" curve="90"/>
 <wire x1="15.2275" y1="1.7145" x2="12.6875" y2="4.2545" width="0" layer="51" curve="90"/>
 <wire x1="-17.602" y1="-25.429109375" x2="-17.60399375" y2="-25.3365" width="0" layer="21" curve="2.349574"/>
-<wire x1="-17.60399375" y1="-10.6045" x2="-17.602" y2="-10.511890625" width="0" layer="21" curve="2.349574"/>
-<wire x1="17.577" y1="-10.511890625" x2="17.57899375" y2="-10.6045" width="0" layer="21" curve="2.349577"/>
 <wire x1="17.57899375" y1="-25.3365" x2="17.577" y2="-25.429109375" width="0" layer="21" curve="2.34958"/>
 <wire x1="-20.8024" y1="-24.7015" x2="-20.1674" y2="-25.3365" width="0.1" layer="21" curve="90"/>
 <wire x1="-20.1674" y1="-10.6045" x2="-20.8024" y2="-11.2395" width="0.1" layer="21" curve="90"/>
@@ -324,6 +313,23 @@
 <wire x1="-2.75" y1="-22" x2="-2.75" y2="-29.5" width="0" layer="21"/>
 <wire x1="2.75" y1="-22" x2="2.75" y2="-29.5" width="0" layer="21"/>
 <wire x1="-2.75" y1="-22" x2="2.75" y2="-22" width="0" layer="21"/>
+<wire x1="16.0835" y1="-30.035496875" x2="17.1955" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="15.4455" y1="-29.527496875" x2="15.4455" y2="-12.083496875" width="0.1" layer="21"/>
+<wire x1="-14.4185" y1="-5.524496875" x2="14.3935" y2="-5.524496875" width="0.1" layer="21"/>
+<wire x1="-16.0185" y1="-12.128496875" x2="-15.8555" y2="-12.128496875" width="0.1" layer="21"/>
+<wire x1="-16.0185" y1="-12.128496875" x2="-16.0185" y2="-29.527496875" width="0.1" layer="21"/>
+<wire x1="-17.2215" y1="-30.035496875" x2="-16.6425" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="-17.6025" y1="-29.654496875" x2="-17.2215" y2="-30.035496875" width="0.1" layer="21" curve="90"/>
+<wire x1="-17.6025" y1="-3.143696875" x2="-17.6025" y2="-29.654496875" width="0.1" layer="21"/>
+<wire x1="-20.3325" y1="0.000003125" x2="-17.602" y2="-3.143728125" width="0.1" layer="21" curve="81.952154"/>
+<wire x1="-15.14256875" y1="2.4537125" x2="-20.332503125" y2="0.000003125" width="0.1" layer="21" curve="129.392074"/>
+<wire x1="-12.7125" y1="4.254503125" x2="-15.142559375" y2="2.453703125" width="0.1" layer="21" curve="73.080758"/>
+<wire x1="-12.7125" y1="4.254503125" x2="12.6875" y2="4.254503125" width="0.1" layer="21"/>
+<wire x1="15.117559375" y1="2.45369375" x2="12.6875" y2="4.2545" width="0.1" layer="21" curve="73.080961"/>
+<wire x1="20.3075" y1="0.000003125" x2="15.117559375" y2="2.453703125" width="0.1" layer="21" curve="129.392313"/>
+<wire x1="17.577" y1="-3.143728125" x2="20.3075" y2="0.000003125" width="0.1" layer="21" curve="81.952154"/>
+<wire x1="17.5765" y1="-29.654496875" x2="17.5765" y2="-3.143696875" width="0.1" layer="21"/>
+<wire x1="17.1955" y1="-30.035496875" x2="17.5765" y2="-29.654496875" width="0.1" layer="21" curve="90"/>
 <pad name="1" x="-11.125" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
 <pad name="2" x="-6.675" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
 <pad name="3" x="-2.225" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
@@ -350,7 +356,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/2" type="model" library_version="2">
+<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/3" type="model" library_version="4">
 <packageinstances>
 <packageinstance name="DTF13-12PA"/>
 </packageinstances>
@@ -429,12 +435,14 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WL-TMRW_5MM" urn="urn:adsk.eagle:footprint:19063502/1" library_version="2">
-<description>&lt;b&gt;WL-TMRW&lt;/b&gt;&lt;br&gt; THT Mono-color Round Waterclear,5mm without stopper</description>
+<package name="WL-TMRW_5MM" urn="urn:adsk.eagle:footprint:19063502/2" library_version="3">
+<description>&lt;b&gt;WL-TMRW THT Mono-color Round Waterclear
+
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;5mm without stoppe,THT, 2pins</description>
 <pad name="2" x="-1.27" y="0" drill="1"/>
 <pad name="1" x="1.27" y="0" drill="1"/>
-<text x="-0.06" y="3.72" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.083" y="-4.195" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="-3.9" y="0" size="1.016" layer="21" align="center">+</text>
 <text x="-3.9" y="0" size="1.016" layer="51" align="center">+</text>
 <wire x1="2.5" y1="1.44" x2="2.5" y2="-1.44" width="0.1" layer="51"/>
@@ -453,8 +461,10 @@ Copyright: Würth Elektronik</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="WL-TMRW_5MM" urn="urn:adsk.eagle:package:19063507/2" type="model" library_version="2">
-<description>&lt;b&gt;WL-TMRW&lt;/b&gt;&lt;br&gt; THT Mono-color Round Waterclear,5mm without stopper</description>
+<package3d name="WL-TMRW_5MM" urn="urn:adsk.eagle:package:19063507/3" type="model" library_version="3">
+<description>&lt;b&gt;WL-TMRW THT Mono-color Round Waterclear
+
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;5mm without stoppe,THT, 2pins</description>
 <packageinstances>
 <packageinstance name="WL-TMRW_5MM"/>
 </packageinstances>
@@ -1810,36 +1820,36 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" package="DTF13-12PA" package3d_urn="urn:adsk.eagle:package:32238112/2" value="DTF13-12PA" x="0" y="0" smashed="yes">
+<element name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" package="DTF13-12PA" package3d_urn="urn:adsk.eagle:package:32238112/3" value="DTF13-12PA" x="0" y="0" smashed="yes">
 <attribute name="ARTIKEL_NR" value="522012" x="-18" y="-33" size="1.524" layer="27"/>
 <attribute name="NAME" x="-19" y="5" size="1.778" layer="25"/>
 <attribute name="VALUE" x="-18" y="-35.5" size="1.778" layer="27"/>
 </element>
-<element name="BLINKER_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Gelb" x="-25.4" y="38.1" smashed="yes" rot="R90">
-<attribute name="ABSTRAHLWINKEL" value="30°" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="BLINKER_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054GS03000" x="-25.4" y="38.1" smashed="yes" rot="R90">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054GS03000?ae" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="I-V-TYP" value="10000mcd" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="522nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="515nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="3.4V" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="10000mcd" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-25.4" y="41.91" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-21.205" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054GS03000" x="-21.205" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="30°" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Gelb" x="25.4" y="38.1" smashed="yes" rot="R90">
-<attribute name="ABSTRAHLWINKEL" value="30°" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054GS03000" x="25.4" y="38.1" smashed="yes" rot="R90">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054GS03000?ae" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="I-V-TYP" value="10000mcd" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="522nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="515nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="3.4V" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="10000mcd" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.4" y="41.91" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="29.595" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054GS03000" x="29.595" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="30°" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="-31.75" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="-33.0454" y="33.02" size="0.9906" layer="25" ratio="10" rot="R90"/>
@@ -1849,83 +1859,83 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.4546" y="33.02" size="0.9906" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="32.2326" y="33.9344" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="LICHT_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Rot" x="-25.4" y="57.15" smashed="yes" rot="R90">
-<attribute name="ABSTRAHLWINKEL" value="30°" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="LICHT_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054RS03000" x="-25.4" y="57.15" smashed="yes" rot="R90">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054RS03000.pdf" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054RS03000?ae" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="623nm" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="EMITTING-COLOR" value="Red" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="I-V-TYP" value="5000mcd" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="623nm" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="631nm" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="1.9V" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="5000mcd" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-25.4" y="60.96" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054RS03000" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="V-F-TYP" value="1.9V" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-21.205" y="57.067" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="631nm" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054RS03000" x="-21.205" y="57.067" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="30°" x="-25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LICHT_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Rot" x="25.4" y="57.15" smashed="yes" rot="R90">
-<attribute name="ABSTRAHLWINKEL" value="30°" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="LICHT_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054RS03000" x="25.4" y="57.15" smashed="yes" rot="R90">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054RS03000.pdf" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054RS03000?ae" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="623nm" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="EMITTING-COLOR" value="Red" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="I-V-TYP" value="5000mcd" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="623nm" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="631nm" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="1.9V" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="5000mcd" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.4" y="60.96" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054RS03000" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="V-F-TYP" value="1.9V" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="29.595" y="57.067" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="631nm" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054RS03000" x="29.595" y="57.067" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="30°" x="25.4" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="BREMSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Rot" x="-25.4" y="76.2" smashed="yes" rot="R90">
-<attribute name="ABSTRAHLWINKEL" value="30°" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="BREMSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054RS03000" x="-25.4" y="76.2" smashed="yes" rot="R90">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054RS03000.pdf" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054RS03000?ae" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="623nm" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="EMITTING-COLOR" value="Red" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="I-V-TYP" value="5000mcd" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="623nm" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="631nm" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="1.9V" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="5000mcd" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-25.4" y="80.01" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054RS03000" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="V-F-TYP" value="1.9V" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-21.205" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="631nm" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054RS03000" x="-21.205" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="30°" x="-25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Grün" x="25.4" y="76.2" smashed="yes" rot="R90">
-<attribute name="ABSTRAHLWINKEL" value="30°" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054GS03000" x="25.4" y="76.2" smashed="yes" rot="R90">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054GS03000?ae" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="I-V-TYP" value="10000mcd" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="522nm" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="515nm" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="3.4V" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="10000mcd" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.4" y="80.01" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="29.595" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054GS03000" x="29.595" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="30°" x="25.4" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="STROMVERSORGUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Grün" x="25.4" y="12.7" smashed="yes" rot="R90">
-<attribute name="ABSTRAHLWINKEL" value="30°" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="STROMVERSORGUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054GS03000" x="25.4" y="12.7" smashed="yes" rot="R90">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054GS03000?ae" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="I-V-TYP" value="10000mcd" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="522nm" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="515nm" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="3.4V" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="10000mcd" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.4" y="16.51" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="29.595" y="12.617" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054GS03000" x="29.595" y="12.617" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="30°" x="25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LADELEITUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Grün" x="-25.4" y="12.7" smashed="yes" rot="R90">
-<attribute name="ABSTRAHLWINKEL" value="30°" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="LADELEITUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054GS03000" x="-25.4" y="12.7" smashed="yes" rot="R90">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054GS03000?ae" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="I-V-TYP" value="10000mcd" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="522nm" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="515nm" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="3.4V" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="10000mcd" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-25.4" y="16.51" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-21.205" y="12.617" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054GS03000" x="-21.205" y="12.617" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="30°" x="-25.4" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="-31.75" y="54.61" smashed="yes" rot="R90">
 <attribute name="NAME" x="-33.0454" y="52.07" size="0.9906" layer="25" ratio="10" rot="R90"/>
@@ -1951,18 +1961,18 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-33.0454" y="7.62" size="0.9906" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="-31.2674" y="8.5344" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/2" value="Grün" x="0" y="76.2" smashed="yes" rot="R90">
-<attribute name="ABSTRAHLWINKEL" value="30°" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054GS03000" x="0" y="76.2" smashed="yes" rot="R90">
 <attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054GS03000?ae" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm" x="0" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="EMITTING-COLOR" value="Green" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="I-V-TYP" value="10000mcd" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="522nm" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="515nm" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="3.4V" x="0" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="10000mcd" x="0" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="0" y="80.01" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="151054GS03000" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="V-F-TYP" value="3.4V" x="-12.7" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="4.195" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm" x="0" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054GS03000" x="4.195" y="76.117" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="30°" x="0" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="6.35" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.0546" y="71.12" size="0.9906" layer="25" ratio="10" rot="R90"/>
