@@ -276,14 +276,11 @@
 <libraries>
 <library name="DEUTSCH-PCB" urn="urn:adsk.eagle:library:32238108">
 <packages>
-<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/1" library_version="2">
+<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/2" library_version="4">
 <wire x1="-20.8024" y1="-24.7015" x2="-20.8024" y2="-11.2395" width="0.1" layer="21"/>
 <wire x1="-20.1674" y1="-25.3365" x2="-20.1674" y2="-10.6045" width="0" layer="51"/>
-<wire x1="-18.2075875" y1="2.996321875" x2="-14.6175" y2="4.2545" width="0.1" layer="21"/>
 <wire x1="-18.242" y1="-25.3365" x2="-18.242" y2="-10.6045" width="0" layer="51"/>
 <wire x1="-17.602" y1="-29.6545" x2="-17.602" y2="-25.429109375" width="0.1" layer="21"/>
-<wire x1="-17.602" y1="-25.429109375" x2="-17.602" y2="-10.511890625" width="0.1" layer="21"/>
-<wire x1="-17.602" y1="-10.511890625" x2="-17.602" y2="-3.14373125" width="0.1" layer="21"/>
 <wire x1="17.196" y1="-30.0355" x2="-17.221" y2="-30.0355" width="0.1" layer="21"/>
 <wire x1="17.577" y1="-29.6545" x2="-17.602" y2="-29.6545" width="0" layer="51"/>
 <wire x1="-15.2525" y1="1.7145" x2="-15.2525" y2="-4.0005" width="0" layer="51"/>
@@ -307,20 +304,12 @@
 <wire x1="15.037" y1="-30.0355" x2="15.037" y2="-4.0005" width="0" layer="51"/>
 <wire x1="15.2275" y1="1.7145" x2="15.2275" y2="-4.0005" width="0" layer="51"/>
 <wire x1="17.577" y1="-29.6545" x2="17.577" y2="-25.429109375" width="0.1" layer="21"/>
-<wire x1="17.577" y1="-25.429109375" x2="17.577" y2="-10.511890625" width="0.1" layer="21"/>
-<wire x1="17.577" y1="-10.511890625" x2="17.577" y2="-3.14373125" width="0.1" layer="21"/>
-<wire x1="-14.6175" y1="4.2545" x2="14.5925" y2="4.2545" width="0.1" layer="21"/>
 <wire x1="18.217" y1="-10.6045" x2="18.217" y2="-25.3365" width="0" layer="51"/>
 <wire x1="20.1424" y1="-25.3365" x2="20.1424" y2="-10.6045" width="0" layer="51"/>
 <wire x1="20.7774" y1="-24.7015" x2="20.7774" y2="-11.2395" width="0.1" layer="21"/>
-<wire x1="14.5925" y1="4.2545" x2="18.1825875" y2="2.996321875" width="0.1" layer="21"/>
-<wire x1="-15.142559375" y1="2.4537" x2="-17.602" y2="-3.14373125" width="0.1" layer="21" curve="211.344467"/>
-<wire x1="17.577" y1="-3.14373125" x2="15.117559375" y2="2.4537" width="0.1" layer="21" curve="211.344467"/>
 <wire x1="-12.7125" y1="4.2545" x2="-15.2525" y2="1.7145" width="0" layer="51" curve="90"/>
 <wire x1="15.2275" y1="1.7145" x2="12.6875" y2="4.2545" width="0" layer="51" curve="90"/>
 <wire x1="-17.602" y1="-25.429109375" x2="-17.60399375" y2="-25.3365" width="0" layer="21" curve="2.349574"/>
-<wire x1="-17.60399375" y1="-10.6045" x2="-17.602" y2="-10.511890625" width="0" layer="21" curve="2.349574"/>
-<wire x1="17.577" y1="-10.511890625" x2="17.57899375" y2="-10.6045" width="0" layer="21" curve="2.349577"/>
 <wire x1="17.57899375" y1="-25.3365" x2="17.577" y2="-25.429109375" width="0" layer="21" curve="2.34958"/>
 <wire x1="-20.8024" y1="-24.7015" x2="-20.1674" y2="-25.3365" width="0.1" layer="21" curve="90"/>
 <wire x1="-20.1674" y1="-10.6045" x2="-20.8024" y2="-11.2395" width="0.1" layer="21" curve="90"/>
@@ -333,6 +322,23 @@
 <wire x1="-2.75" y1="-22" x2="-2.75" y2="-29.5" width="0" layer="21"/>
 <wire x1="2.75" y1="-22" x2="2.75" y2="-29.5" width="0" layer="21"/>
 <wire x1="-2.75" y1="-22" x2="2.75" y2="-22" width="0" layer="21"/>
+<wire x1="16.0835" y1="-30.035496875" x2="17.1955" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="15.4455" y1="-29.527496875" x2="15.4455" y2="-12.083496875" width="0.1" layer="21"/>
+<wire x1="-14.4185" y1="-5.524496875" x2="14.3935" y2="-5.524496875" width="0.1" layer="21"/>
+<wire x1="-16.0185" y1="-12.128496875" x2="-15.8555" y2="-12.128496875" width="0.1" layer="21"/>
+<wire x1="-16.0185" y1="-12.128496875" x2="-16.0185" y2="-29.527496875" width="0.1" layer="21"/>
+<wire x1="-17.2215" y1="-30.035496875" x2="-16.6425" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="-17.6025" y1="-29.654496875" x2="-17.2215" y2="-30.035496875" width="0.1" layer="21" curve="90"/>
+<wire x1="-17.6025" y1="-3.143696875" x2="-17.6025" y2="-29.654496875" width="0.1" layer="21"/>
+<wire x1="-20.3325" y1="0.000003125" x2="-17.602" y2="-3.143728125" width="0.1" layer="21" curve="81.952154"/>
+<wire x1="-15.14256875" y1="2.4537125" x2="-20.332503125" y2="0.000003125" width="0.1" layer="21" curve="129.392074"/>
+<wire x1="-12.7125" y1="4.254503125" x2="-15.142559375" y2="2.453703125" width="0.1" layer="21" curve="73.080758"/>
+<wire x1="-12.7125" y1="4.254503125" x2="12.6875" y2="4.254503125" width="0.1" layer="21"/>
+<wire x1="15.117559375" y1="2.45369375" x2="12.6875" y2="4.2545" width="0.1" layer="21" curve="73.080961"/>
+<wire x1="20.3075" y1="0.000003125" x2="15.117559375" y2="2.453703125" width="0.1" layer="21" curve="129.392313"/>
+<wire x1="17.577" y1="-3.143728125" x2="20.3075" y2="0.000003125" width="0.1" layer="21" curve="81.952154"/>
+<wire x1="17.5765" y1="-29.654496875" x2="17.5765" y2="-3.143696875" width="0.1" layer="21"/>
+<wire x1="17.1955" y1="-30.035496875" x2="17.5765" y2="-29.654496875" width="0.1" layer="21" curve="90"/>
 <pad name="1" x="-11.125" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
 <pad name="2" x="-6.675" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
 <pad name="3" x="-2.225" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
@@ -359,7 +365,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/2" type="model" library_version="2">
+<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/3" type="model" library_version="4">
 <packageinstances>
 <packageinstance name="DTF13-12PA"/>
 </packageinstances>
@@ -1513,8 +1519,12 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WL-SMRW_1206_DOME_REV" urn="urn:adsk.eagle:footprint:19040145/1" library_version="2">
-<description>&lt;B&gt;WL-SMRW&lt;/B&gt;&lt;BR&gt; SMT Mono-color Reverse mount Waterclear,1206 dome,3.2x1.6x1.85mm(LXWXH)
+<package name="WL-SMRW_1206_DOME_REV" urn="urn:adsk.eagle:footprint:19040145/2" library_version="4">
+<description>&lt;B&gt;WL-SMRW SMT Mono-color Reverse mount Waterclea
+
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;Size 1206 dome, SMT, 2pins
+&lt;BR&gt;3.2x1.6x1.85mm(LXWXH)
+
 &lt;BR&gt;&lt;BR&gt;Reverse use</description>
 <smd name="1" x="-1.7" y="0" dx="0.1" dy="0.1" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="2" x="1.7" y="0" dx="0.1" dy="0.1" layer="1" rot="R90" stop="no" cream="no"/>
@@ -1732,18 +1742,63 @@ Copyright: Würth Elektronik</description>
 <vertex x="1.33" y="-0.626"/>
 <vertex x="1.317" y="-0.653"/>
 </polygon>
-<text x="-0.1" y="1.7" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.2" y="-2.2" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="2.9" y="0" size="0.6096" layer="21" align="center">+</text>
-<text x="2.9" y="0" size="0.6096" layer="51" align="center">+</text>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="3.2" y="0" size="1.016" layer="51" align="center">+</text>
+</package>
+<package name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:footprint:19040146/2" library_version="4">
+<description>&lt;B&gt;WL-SMRW SMT Mono-color Reverse mount Waterclea
+
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;Size 1206 dome, SMT, 2pins
+&lt;BR&gt;3.2x1.6x1.85mm(LXWXH)
+
+&lt;BR&gt;&lt;BR&gt;Normal use</description>
+<smd name="1" x="-1.75" y="0" dx="1.5" dy="1.6" layer="1"/>
+<smd name="2" x="1.75" y="0" dx="1.5" dy="1.6" layer="1"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="-0.9" x2="0.7" y2="-0.9" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="0.9" x2="0.7" y2="0.9" width="0.2" layer="21"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.127" layer="51"/>
+<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.127" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.7" y="1.1"/>
+<vertex x="2.7" y="1.1"/>
+<vertex x="2.7" y="-1.1"/>
+<vertex x="-2.7" y="-1.1"/>
+</polygon>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="3.2" y="0" size="1.016" layer="51" align="center">+</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="WL-SMRW_1206_DOME_REV" urn="urn:adsk.eagle:package:19040154/2" type="model" library_version="2">
-<description>&lt;B&gt;WL-SMRW&lt;/B&gt;&lt;BR&gt; SMT Mono-color Reverse mount Waterclear,1206 dome,3.2x1.6x1.85mm(LXWXH)
+<package3d name="WL-SMRW_1206_DOME_REV" urn="urn:adsk.eagle:package:19040154/3" type="model" library_version="4">
+<description>&lt;B&gt;WL-SMRW SMT Mono-color Reverse mount Waterclea
+
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;Size 1206 dome, SMT, 2pins
+&lt;BR&gt;3.2x1.6x1.85mm(LXWXH)
+
 &lt;BR&gt;&lt;BR&gt;Reverse use</description>
 <packageinstances>
 <packageinstance name="WL-SMRW_1206_DOME_REV"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:package:19040155/3" type="model" library_version="4">
+<description>&lt;B&gt;WL-SMRW SMT Mono-color Reverse mount Waterclea
+
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;Size 1206 dome, SMT, 2pins
+&lt;BR&gt;3.2x1.6x1.85mm(LXWXH)
+
+&lt;BR&gt;&lt;BR&gt;Normal use</description>
+<packageinstances>
+<packageinstance name="WL-SMRW_1206_DOME"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1979,36 +2034,36 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" package="DTF13-12PA" package3d_urn="urn:adsk.eagle:package:32238112/2" value="DTF13-12PA" x="0" y="0" smashed="yes">
+<element name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" package="DTF13-12PA" package3d_urn="urn:adsk.eagle:package:32238112/3" value="DTF13-12PA" x="0" y="0" smashed="yes">
 <attribute name="ARTIKEL_NR" value="522012" x="-18" y="-33" size="1.524" layer="27"/>
 <attribute name="NAME" x="-19" y="5" size="1.778" layer="25"/>
 <attribute name="VALUE" x="-18" y="-35.5" size="1.778" layer="27"/>
 </element>
-<element name="BLINKER_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" value="Gelb" x="-25.4" y="38.1" smashed="yes" rot="MR270">
-<attribute name="ABSTRAHLWINKEL" value="20°" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="BLINKER_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/3" value="156120YS82500" x="-25.4" y="38.1" smashed="yes" rot="MR270">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="EMITTING-COLOR" value="Super Red" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="I-V-TYP" value="900mcd" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120YS82500?ae" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="589nm" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="EMITTING-COLOR" value="Yellow" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="1400mcd" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="-25.4" y="34.29" size="0.8128" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="156120SS82500" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="-21.205" y="38.183" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120YS82500" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="591nm" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" value="156120YS82500" x="-21.205" y="38.183" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="20°" x="-25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="BLINKER_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" value="Gelb" x="25.4" y="38.1" smashed="yes" rot="MR270">
-<attribute name="ABSTRAHLWINKEL" value="20°" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="BLINKER_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/3" value="156120YS82500" x="25.4" y="38.1" smashed="yes" rot="MR270">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="EMITTING-COLOR" value="Super Red" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="I-V-TYP" value="900mcd" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120YS82500?ae" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="589nm" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="EMITTING-COLOR" value="Yellow" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="1400mcd" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="25.4" y="34.29" size="0.8128" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="156120SS82500" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="29.595" y="38.183" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120YS82500" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="591nm" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" value="156120YS82500" x="29.595" y="38.183" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="20°" x="25.4" y="38.1" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680" x="-31.75" y="38.378" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-30.4546" y="35.838" size="0.9906" layer="26" ratio="10" rot="MR90"/>
@@ -2022,83 +2077,83 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="31.75" y="38.378" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="31.2674" y="36.7524" size="0.9906" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="LICHT_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" value="Rot" x="-25.4" y="57.15" smashed="yes" rot="MR270">
-<attribute name="ABSTRAHLWINKEL" value="20°" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="LICHT_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" value="156120SS82500" x="-25.4" y="57.15" smashed="yes" rot="MR270">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120SS82500?ae" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="EMITTING-COLOR" value="Super Red" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="I-V-TYP" value="900mcd" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="900mcd" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="-25.4" y="53.34" size="0.8128" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="156120SS82500" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="-21.205" y="57.233" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="645nm" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" value="156120SS82500" x="-21.205" y="57.233" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="20°" x="-25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="LICHT_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" value="Rot" x="25.4" y="57.15" smashed="yes" rot="MR270">
-<attribute name="ABSTRAHLWINKEL" value="20°" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="LICHT_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" value="156120SS82500" x="25.4" y="57.15" smashed="yes" rot="MR270">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120SS82500?ae" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="EMITTING-COLOR" value="Super Red" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="I-V-TYP" value="900mcd" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="900mcd" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="25.4" y="53.34" size="0.8128" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="156120SS82500" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="29.595" y="57.233" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="645nm" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" value="156120SS82500" x="29.595" y="57.233" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="20°" x="25.4" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="BREMSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" value="Rot" x="-25.4" y="76.2" smashed="yes" rot="MR270">
-<attribute name="ABSTRAHLWINKEL" value="20°" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="BREMSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" value="156120SS82500" x="-25.4" y="76.2" smashed="yes" rot="MR270">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120SS82500?ae" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="EMITTING-COLOR" value="Super Red" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="I-V-TYP" value="900mcd" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="900mcd" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="-25.4" y="72.39" size="0.8128" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="PART-NUMBER" value="156120SS82500" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="-21.205" y="76.283" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="PEAK-WAVELENGTH" value="645nm" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" value="156120SS82500" x="-21.205" y="76.283" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="20°" x="-25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" value="Grün" x="25.4" y="76.2" smashed="yes" rot="MR270">
-<attribute name="ABSTRAHLWINKEL" value="20°" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/3" value="156120VS82500" x="25.4" y="76.2" smashed="yes" rot="MR270">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="EMITTING-COLOR" value="Super Red" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="I-V-TYP" value="900mcd" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120VS82500?ae" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="573nm" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="EMITTING-COLOR" value="Bright Green" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="1050mcd" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="25.4" y="72.39" size="0.8128" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="156120SS82500" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="29.595" y="76.283" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120VS82500" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="575nm" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" value="156120VS82500" x="29.595" y="76.283" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="20°" x="25.4" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="STROMVERSORGUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" value="Grün" x="25.4" y="12.7" smashed="yes" rot="MR270">
-<attribute name="ABSTRAHLWINKEL" value="20°" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="STROMVERSORGUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/3" value="156120VS82500" x="25.4" y="12.7" smashed="yes" rot="MR270">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="EMITTING-COLOR" value="Super Red" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="I-V-TYP" value="900mcd" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120VS82500?ae" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="573nm" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="EMITTING-COLOR" value="Bright Green" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="1050mcd" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="25.4" y="8.89" size="0.8128" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="156120SS82500" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="29.595" y="12.783" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120VS82500" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="575nm" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" value="156120VS82500" x="29.595" y="12.783" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="20°" x="25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="LADELEITUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" value="Grün" x="-25.4" y="12.7" smashed="yes" rot="MR270">
-<attribute name="ABSTRAHLWINKEL" value="20°" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="LADELEITUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/3" value="156120VS82500" x="-25.4" y="12.7" smashed="yes" rot="MR270">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="EMITTING-COLOR" value="Super Red" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="I-V-TYP" value="900mcd" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120VS82500?ae" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="573nm" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="EMITTING-COLOR" value="Bright Green" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="1050mcd" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="-25.4" y="8.89" size="0.8128" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="156120SS82500" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="-21.205" y="12.783" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120VS82500" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="575nm" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" value="156120VS82500" x="-21.205" y="12.783" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="20°" x="-25.4" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680" x="-31.75" y="57.428" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-30.4546" y="54.888" size="0.9906" layer="26" ratio="10" rot="MR90"/>
@@ -2136,18 +2191,18 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-31.75" y="12.978" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="-32.2326" y="11.3524" size="0.9906" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" value="Grün" x="0" y="76.2" smashed="yes" rot="MR270">
-<attribute name="ABSTRAHLWINKEL" value="20°" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/3" value="156120VS82500" x="0" y="76.2" smashed="yes" rot="MR270">
 <attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="EMITTING-COLOR" value="Super Red" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="I-V-TYP" value="900mcd" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120VS82500?ae" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="573nm" x="0" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="EMITTING-COLOR" value="Bright Green" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2V" x="0" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="1050mcd" x="0" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="0" y="72.39" size="0.8128" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="156120SS82500" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="V-F-TYP" value="2V" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="4.195" y="76.283" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="156120VS82500" x="-12.7" y="88.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="575nm" x="0" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" value="156120VS82500" x="4.195" y="76.283" size="0.8128" layer="28" rot="MR270" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="20°" x="0" y="76.2" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680" x="6.35" y="76.478" smashed="yes" rot="MR90">
 <attribute name="NAME" x="7.6454" y="73.938" size="0.9906" layer="26" ratio="10" rot="MR90"/>
@@ -2173,7 +2228,7 @@ design rules under a new name.</description>
 <wire x1="-11.125" y1="28.905" x2="-17.78" y2="35.56" width="0.8128" layer="1"/>
 <wire x1="-11.125" y1="28.905" x2="-11.125" y2="2.2225" width="0.8128" layer="1"/>
 <via x="-17.78" y="35.56" extent="1-16" drill="0.35"/>
-<wire x1="-25.4" y1="36.4" x2="-18.62" y2="36.4" width="0.8128" layer="16"/>
+<wire x1="-25.4" y1="36.35" x2="-18.62" y2="36.4" width="0.8128" layer="16"/>
 <wire x1="-18.62" y1="36.4" x2="-17.78" y2="35.56" width="0.8128" layer="16"/>
 </signal>
 <signal name="NEBELSCHLUSSLEUCHTE_2">
@@ -2182,7 +2237,7 @@ design rules under a new name.</description>
 <wire x1="-6.675" y1="80.1" x2="-4.45" y2="82.325" width="0.8128" layer="16"/>
 <wire x1="11.655" y1="82.325" x2="-4.45" y2="82.325" width="0.8128" layer="16"/>
 <wire x1="-6.675" y1="2.2225" x2="-6.675" y2="80.1" width="0.8128" layer="16"/>
-<wire x1="25.4" y1="74.5" x2="19.48" y2="74.5" width="0.8128" layer="16"/>
+<wire x1="25.4" y1="74.45" x2="19.48" y2="74.5" width="0.8128" layer="16"/>
 <wire x1="19.48" y1="74.5" x2="11.655" y2="82.325" width="0.8128" layer="16"/>
 </signal>
 <signal name="LADELEITUNG_10">
@@ -2193,7 +2248,7 @@ design rules under a new name.</description>
 <wire x1="-4.45" y1="-4.45" x2="-20.958" y2="-4.45" width="0.8128" layer="1"/>
 <wire x1="-20.958" y1="-4.45" x2="-25.4" y2="-0.008" width="0.8128" layer="1"/>
 <via x="-25.4" y="-0.008" extent="1-16" drill="0.35"/>
-<wire x1="-25.4" y1="11" x2="-25.4" y2="-0.008" width="0.8128" layer="16"/>
+<wire x1="-25.4" y1="10.95" x2="-25.4" y2="-0.008" width="0.8128" layer="16"/>
 </signal>
 <signal name="BLINKER_RECHTS_4">
 <contactref element="X2" pad="4"/>
@@ -2205,7 +2260,7 @@ design rules under a new name.</description>
 <wire x1="8.9" y1="1.153" x2="8.9" y2="2.69695625" width="0.8128" layer="16"/>
 <wire x1="15.585" y1="33.365" x2="15.585" y2="9.38195625" width="0.8128" layer="16"/>
 <wire x1="8.9" y1="2.69695625" x2="15.585" y2="9.38195625" width="0.8128" layer="16"/>
-<wire x1="25.4" y1="36.4" x2="18.62" y2="36.4" width="0.8128" layer="16"/>
+<wire x1="25.4" y1="36.35" x2="18.62" y2="36.4" width="0.8128" layer="16"/>
 <wire x1="18.62" y1="36.4" x2="15.585" y2="33.365" width="0.8128" layer="16"/>
 </signal>
 <signal name="STROMVERSORGUNG_9">
@@ -2217,7 +2272,7 @@ design rules under a new name.</description>
 <wire x1="4.45" y1="-4.45" x2="2.225" y2="-2.225" width="0.8128" layer="1"/>
 <wire x1="2.225" y1="-2.225" x2="2.225" y2="-2.2225" width="0.8128" layer="1"/>
 <via x="22.25" y="8.28" extent="1-16" drill="0.35"/>
-<wire x1="25.4" y1="11" x2="25.4" y2="8.89" width="0.8128" layer="16"/>
+<wire x1="25.4" y1="10.95" x2="25.4" y2="8.89" width="0.8128" layer="16"/>
 <wire x1="25.4" y1="8.89" x2="24.79" y2="8.28" width="0.8128" layer="16"/>
 <wire x1="24.79" y1="8.28" x2="22.25" y2="8.28" width="0.8128" layer="16"/>
 </signal>
@@ -2235,7 +2290,7 @@ design rules under a new name.</description>
 <wire x1="1.143" y1="0" x2="3.434" y2="0" width="0.8128" layer="16"/>
 <wire x1="6.675" y1="-2.2225" x2="5.6565" y2="-2.2225" width="0.8128" layer="16"/>
 <wire x1="3.434" y1="0" x2="5.6565" y2="-2.2225" width="0.8128" layer="16"/>
-<wire x1="0" y1="74.5" x2="0" y2="1.143" width="0.8128" layer="16"/>
+<wire x1="0" y1="74.45" x2="0" y2="1.143" width="0.8128" layer="16"/>
 </signal>
 <signal name="BREMSLEUCHTE_6">
 <contactref element="X2" pad="6"/>
@@ -2390,12 +2445,12 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="BLINKER_LINKS" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="-25.4" y1="39.8" x2="-31.75" y2="39.8" width="0.8128" layer="16"/>
+<wire x1="-25.4" y1="39.85" x2="-31.75" y2="39.8" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="BLINKER_RECHTS" pad="1"/>
 <contactref element="R1" pad="2"/>
-<wire x1="25.4" y1="39.8" x2="31.75" y2="39.8" width="0.8128" layer="16"/>
+<wire x1="25.4" y1="39.85" x2="31.75" y2="39.8" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="2"/>
@@ -2415,22 +2470,22 @@ design rules under a new name.</description>
 <signal name="N$6">
 <contactref element="R6" pad="2"/>
 <contactref element="NEBELSCHLUSSLEUCHTE" pad="1"/>
-<wire x1="25.4" y1="77.9" x2="31.75" y2="77.9" width="0.8128" layer="16"/>
+<wire x1="25.4" y1="77.95" x2="31.75" y2="77.9" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="R7" pad="2"/>
 <contactref element="STROMVERSORGUNG" pad="1"/>
-<wire x1="25.4" y1="14.4" x2="31.75" y2="14.4" width="0.8128" layer="16"/>
+<wire x1="25.4" y1="14.45" x2="31.75" y2="14.4" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="R8" pad="2"/>
 <contactref element="LADELEITUNG" pad="1"/>
-<wire x1="-25.4" y1="14.4" x2="-31.75" y2="14.4" width="0.8128" layer="16"/>
+<wire x1="-25.4" y1="14.45" x2="-31.75" y2="14.4" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="R9" pad="2"/>
 <contactref element="RUECKFAHRLEUCHTE" pad="1"/>
-<wire x1="0" y1="77.9" x2="6.35" y2="77.9" width="0.8128" layer="16"/>
+<wire x1="0" y1="77.95" x2="6.35" y2="77.9" width="0.8128" layer="16"/>
 </signal>
 <signal name="MASSE_9">
 <contactref element="R7" pad="1"/>

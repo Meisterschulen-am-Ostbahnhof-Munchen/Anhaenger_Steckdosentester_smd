@@ -233,14 +233,11 @@
 <libraries>
 <library name="DEUTSCH-PCB" urn="urn:adsk.eagle:library:32238108">
 <packages>
-<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/1" library_version="2">
+<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/2" library_version="4">
 <wire x1="-20.8024" y1="-24.7015" x2="-20.8024" y2="-11.2395" width="0.1" layer="21"/>
 <wire x1="-20.1674" y1="-25.3365" x2="-20.1674" y2="-10.6045" width="0" layer="51"/>
-<wire x1="-18.2075875" y1="2.996321875" x2="-14.6175" y2="4.2545" width="0.1" layer="21"/>
 <wire x1="-18.242" y1="-25.3365" x2="-18.242" y2="-10.6045" width="0" layer="51"/>
 <wire x1="-17.602" y1="-29.6545" x2="-17.602" y2="-25.429109375" width="0.1" layer="21"/>
-<wire x1="-17.602" y1="-25.429109375" x2="-17.602" y2="-10.511890625" width="0.1" layer="21"/>
-<wire x1="-17.602" y1="-10.511890625" x2="-17.602" y2="-3.14373125" width="0.1" layer="21"/>
 <wire x1="17.196" y1="-30.0355" x2="-17.221" y2="-30.0355" width="0.1" layer="21"/>
 <wire x1="17.577" y1="-29.6545" x2="-17.602" y2="-29.6545" width="0" layer="51"/>
 <wire x1="-15.2525" y1="1.7145" x2="-15.2525" y2="-4.0005" width="0" layer="51"/>
@@ -264,20 +261,12 @@
 <wire x1="15.037" y1="-30.0355" x2="15.037" y2="-4.0005" width="0" layer="51"/>
 <wire x1="15.2275" y1="1.7145" x2="15.2275" y2="-4.0005" width="0" layer="51"/>
 <wire x1="17.577" y1="-29.6545" x2="17.577" y2="-25.429109375" width="0.1" layer="21"/>
-<wire x1="17.577" y1="-25.429109375" x2="17.577" y2="-10.511890625" width="0.1" layer="21"/>
-<wire x1="17.577" y1="-10.511890625" x2="17.577" y2="-3.14373125" width="0.1" layer="21"/>
-<wire x1="-14.6175" y1="4.2545" x2="14.5925" y2="4.2545" width="0.1" layer="21"/>
 <wire x1="18.217" y1="-10.6045" x2="18.217" y2="-25.3365" width="0" layer="51"/>
 <wire x1="20.1424" y1="-25.3365" x2="20.1424" y2="-10.6045" width="0" layer="51"/>
 <wire x1="20.7774" y1="-24.7015" x2="20.7774" y2="-11.2395" width="0.1" layer="21"/>
-<wire x1="14.5925" y1="4.2545" x2="18.1825875" y2="2.996321875" width="0.1" layer="21"/>
-<wire x1="-15.142559375" y1="2.4537" x2="-17.602" y2="-3.14373125" width="0.1" layer="21" curve="211.344467"/>
-<wire x1="17.577" y1="-3.14373125" x2="15.117559375" y2="2.4537" width="0.1" layer="21" curve="211.344467"/>
 <wire x1="-12.7125" y1="4.2545" x2="-15.2525" y2="1.7145" width="0" layer="51" curve="90"/>
 <wire x1="15.2275" y1="1.7145" x2="12.6875" y2="4.2545" width="0" layer="51" curve="90"/>
 <wire x1="-17.602" y1="-25.429109375" x2="-17.60399375" y2="-25.3365" width="0" layer="21" curve="2.349574"/>
-<wire x1="-17.60399375" y1="-10.6045" x2="-17.602" y2="-10.511890625" width="0" layer="21" curve="2.349574"/>
-<wire x1="17.577" y1="-10.511890625" x2="17.57899375" y2="-10.6045" width="0" layer="21" curve="2.349577"/>
 <wire x1="17.57899375" y1="-25.3365" x2="17.577" y2="-25.429109375" width="0" layer="21" curve="2.34958"/>
 <wire x1="-20.8024" y1="-24.7015" x2="-20.1674" y2="-25.3365" width="0.1" layer="21" curve="90"/>
 <wire x1="-20.1674" y1="-10.6045" x2="-20.8024" y2="-11.2395" width="0.1" layer="21" curve="90"/>
@@ -290,6 +279,112 @@
 <wire x1="-2.75" y1="-22" x2="-2.75" y2="-29.5" width="0" layer="21"/>
 <wire x1="2.75" y1="-22" x2="2.75" y2="-29.5" width="0" layer="21"/>
 <wire x1="-2.75" y1="-22" x2="2.75" y2="-22" width="0" layer="21"/>
+<wire x1="16.0835" y1="-30.035496875" x2="17.1955" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="15.4455" y1="-29.527496875" x2="15.4455" y2="-12.083496875" width="0.1" layer="21"/>
+<wire x1="-14.4185" y1="-5.524496875" x2="14.3935" y2="-5.524496875" width="0.1" layer="21"/>
+<wire x1="-16.0185" y1="-12.128496875" x2="-15.8555" y2="-12.128496875" width="0.1" layer="21"/>
+<wire x1="-16.0185" y1="-12.128496875" x2="-16.0185" y2="-29.527496875" width="0.1" layer="21"/>
+<wire x1="-17.2215" y1="-30.035496875" x2="-16.6425" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="-17.6025" y1="-29.654496875" x2="-17.2215" y2="-30.035496875" width="0.1" layer="21" curve="90"/>
+<wire x1="-17.6025" y1="-3.143696875" x2="-17.6025" y2="-29.654496875" width="0.1" layer="21"/>
+<wire x1="-20.3325" y1="0.000003125" x2="-17.602" y2="-3.143728125" width="0.1" layer="21" curve="81.952154"/>
+<wire x1="-15.14256875" y1="2.4537125" x2="-20.332503125" y2="0.000003125" width="0.1" layer="21" curve="129.392074"/>
+<wire x1="-12.7125" y1="4.254503125" x2="-15.142559375" y2="2.453703125" width="0.1" layer="21" curve="73.080758"/>
+<wire x1="-12.7125" y1="4.254503125" x2="12.6875" y2="4.254503125" width="0.1" layer="21"/>
+<wire x1="15.117559375" y1="2.45369375" x2="12.6875" y2="4.2545" width="0.1" layer="21" curve="73.080961"/>
+<wire x1="20.3075" y1="0.000003125" x2="15.117559375" y2="2.453703125" width="0.1" layer="21" curve="129.392313"/>
+<wire x1="17.577" y1="-3.143728125" x2="20.3075" y2="0.000003125" width="0.1" layer="21" curve="81.952154"/>
+<wire x1="17.5765" y1="-29.654496875" x2="17.5765" y2="-3.143696875" width="0.1" layer="21"/>
+<wire x1="17.1955" y1="-30.035496875" x2="17.5765" y2="-29.654496875" width="0.1" layer="21" curve="90"/>
+<pad name="1" x="-11.125" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="2" x="-6.675" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="3" x="-2.225" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="4" x="2.225" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="5" x="6.675" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="6" x="11.125" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="7" x="11.125" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="8" x="6.675" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="9" x="2.225" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="10" x="-2.225" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="11" x="-6.675" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="12" x="-11.125" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<text x="-19" y="5" size="1.778" layer="25">&gt;NAME</text>
+<text x="-18" y="-35.5" size="1.778" layer="27">&gt;VALUE</text>
+<text x="-18" y="-33" size="1.524" layer="27">&gt;ARTIKEL_NR</text>
+<text x="-13.25" y="2.3" size="2" layer="21" font="vector" align="center">1</text>
+<text x="13.85" y="2.35" size="2" layer="21" font="vector" align="center">6</text>
+<text x="14.25" y="-2.15" size="2" layer="21" font="vector" align="center">7</text>
+<text x="-14.1" y="-2.3" size="2" layer="21" font="vector" align="center">12</text>
+<hole x="-17.1575" y="0" drill="3"/>
+<hole x="17.1325" y="0" drill="3"/>
+<circle x="-17.1575" y="0" radius="3" width="0.127" layer="22"/>
+<circle x="17.1325" y="0" radius="3" width="0.127" layer="22"/>
+</package>
+<package name="ATF13-12PA" urn="urn:adsk.eagle:footprint:32679242/1" library_version="4">
+<wire x1="-20.8024" y1="-24.7015" x2="-20.8024" y2="-11.2395" width="0.1" layer="21"/>
+<wire x1="-20.1674" y1="-25.3365" x2="-20.1674" y2="-10.6045" width="0" layer="51"/>
+<wire x1="-18.242" y1="-25.3365" x2="-18.242" y2="-10.6045" width="0" layer="51"/>
+<wire x1="-17.602" y1="-29.6545" x2="-17.602" y2="-25.429109375" width="0.1" layer="21"/>
+<wire x1="17.196" y1="-30.0355" x2="-17.221" y2="-30.0355" width="0.1" layer="21"/>
+<wire x1="17.577" y1="-29.6545" x2="-17.602" y2="-29.6545" width="0" layer="51"/>
+<wire x1="-15.2525" y1="1.7145" x2="-15.2525" y2="-4.0005" width="0" layer="51"/>
+<wire x1="-15.062" y1="-30.0355" x2="-15.062" y2="-4.0005" width="0" layer="51"/>
+<wire x1="-12.7125" y1="4.2545" x2="-12.7125" y2="-4.0005" width="0" layer="51"/>
+<wire x1="-20.1674" y1="-25.3365" x2="-17.60399375" y2="-25.3365" width="0.1" layer="21"/>
+<wire x1="17.57899375" y1="-25.3365" x2="20.1424" y2="-25.3365" width="0.1" layer="21"/>
+<wire x1="-20.8024" y1="-24.7015" x2="-17.602" y2="-24.7015" width="0" layer="51"/>
+<wire x1="-20.8024" y1="-11.2395" x2="-17.602" y2="-11.2395" width="0" layer="51"/>
+<wire x1="17.577" y1="-11.2395" x2="20.7774" y2="-11.2395" width="0" layer="51"/>
+<wire x1="-20.1674" y1="-10.6045" x2="-17.60399375" y2="-10.6045" width="0.1" layer="21"/>
+<wire x1="17.57899375" y1="-10.6045" x2="20.1424" y2="-10.6045" width="0.1" layer="21"/>
+<wire x1="17.577" y1="-4.6355" x2="-17.602" y2="-4.6355" width="0" layer="51"/>
+<wire x1="16.942" y1="-4.0005" x2="15.2275" y2="-4.0005" width="0" layer="51"/>
+<wire x1="15.2275" y1="-4.0005" x2="15.037" y2="-4.0005" width="0" layer="51"/>
+<wire x1="15.037" y1="-4.0005" x2="12.6875" y2="-4.0005" width="0" layer="51"/>
+<wire x1="12.6875" y1="-4.0005" x2="-16.967" y2="-4.0005" width="0" layer="51"/>
+<wire x1="12.6875" y1="4.2545" x2="12.6875" y2="-4.0005" width="0" layer="51"/>
+<wire x1="-15.2525" y1="1.7145" x2="15.2275" y2="1.7145" width="0" layer="51"/>
+<wire x1="15.037" y1="-30.0355" x2="15.037" y2="-4.0005" width="0" layer="51"/>
+<wire x1="15.2275" y1="1.7145" x2="15.2275" y2="-4.0005" width="0" layer="51"/>
+<wire x1="17.577" y1="-29.6545" x2="17.577" y2="-25.429109375" width="0.1" layer="21"/>
+<wire x1="18.217" y1="-10.6045" x2="18.217" y2="-25.3365" width="0" layer="51"/>
+<wire x1="20.1424" y1="-25.3365" x2="20.1424" y2="-10.6045" width="0" layer="51"/>
+<wire x1="20.7774" y1="-24.7015" x2="20.7774" y2="-11.2395" width="0.1" layer="21"/>
+<wire x1="-12.7125" y1="4.2545" x2="-15.2525" y2="1.7145" width="0" layer="51" curve="90"/>
+<wire x1="15.2275" y1="1.7145" x2="12.6875" y2="4.2545" width="0" layer="51" curve="90"/>
+<wire x1="-17.602" y1="-25.429109375" x2="-17.60399375" y2="-25.3365" width="0" layer="21" curve="2.349574"/>
+<wire x1="17.57899375" y1="-25.3365" x2="17.577" y2="-25.429109375" width="0" layer="21" curve="2.34958"/>
+<wire x1="-20.8024" y1="-24.7015" x2="-20.1674" y2="-25.3365" width="0.1" layer="21" curve="90"/>
+<wire x1="-20.1674" y1="-10.6045" x2="-20.8024" y2="-11.2395" width="0.1" layer="21" curve="90"/>
+<wire x1="20.1424" y1="-25.3365" x2="20.7774" y2="-24.7015" width="0.1" layer="21" curve="90"/>
+<wire x1="20.7774" y1="-11.2395" x2="20.1424" y2="-10.6045" width="0.1" layer="21" curve="90"/>
+<wire x1="17.577" y1="-4.6355" x2="16.942" y2="-4.0005" width="0" layer="51" curve="90"/>
+<wire x1="-16.967" y1="-4.0005" x2="-17.602" y2="-4.6355" width="0" layer="51" curve="90"/>
+<wire x1="17.196" y1="-30.0355" x2="17.577" y2="-29.6545" width="0.1" layer="21" curve="90"/>
+<wire x1="-17.602" y1="-29.6545" x2="-17.221" y2="-30.0355" width="0.1" layer="21" curve="90"/>
+<wire x1="-2.75" y1="-22" x2="-2.75" y2="-29.5" width="0" layer="21"/>
+<wire x1="2.75" y1="-22" x2="2.75" y2="-29.5" width="0" layer="21"/>
+<wire x1="-2.75" y1="-22" x2="2.75" y2="-22" width="0" layer="21"/>
+<wire x1="16.0835" y1="-30.035496875" x2="17.1955" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="-17.2215" y1="-30.035496875" x2="-16.6425" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="-17.6025" y1="-29.654496875" x2="-17.2215" y2="-30.035496875" width="0.1" layer="21" curve="90"/>
+<wire x1="17.1955" y1="-30.035496875" x2="17.5765" y2="-29.654496875" width="0.1" layer="21" curve="90"/>
+<wire x1="15.5255" y1="-30.4" x2="17.5625" y2="-30.4" width="0.1" layer="21"/>
+<wire x1="15.5255" y1="-30.4" x2="15.5255" y2="-12.15" width="0.1" layer="21"/>
+<wire x1="14.6715" y1="-12.15" x2="15.5255" y2="-12.15" width="0.1" layer="21"/>
+<wire x1="14.6715" y1="-12.15" x2="14.6715" y2="-5.8" width="0.1" layer="21"/>
+<wire x1="-14.6975" y1="-5.8" x2="14.6715" y2="-5.8" width="0.1" layer="21"/>
+<wire x1="-14.6975" y1="-12.15" x2="-14.6975" y2="-5.8" width="0.1" layer="21"/>
+<wire x1="-16.2715" y1="-12.15" x2="-14.6975" y2="-12.15" width="0.1" layer="21"/>
+<wire x1="-16.2715" y1="-12.15" x2="-16.2715" y2="-30.4" width="0.1" layer="21"/>
+<wire x1="-17.5875" y1="-30.4" x2="-16.2715" y2="-30.4" width="0.1" layer="21"/>
+<wire x1="-17.5875" y1="-3.8058" x2="-17.5875" y2="-30.4" width="0.1" layer="21"/>
+<wire x1="-15.44251875" y1="3.42458125" x2="-17.5875" y2="-3.8057875" width="0.1" layer="21" curve="200.15478"/>
+<wire x1="-15.4425" y1="4.5" x2="-15.4425" y2="3.4246" width="0.1" layer="21"/>
+<wire x1="-15.4425" y1="4.5" x2="15.4175" y2="4.5" width="0.1" layer="21"/>
+<wire x1="15.4175" y1="3.4246" x2="15.4175" y2="4.5" width="0.1" layer="21"/>
+<wire x1="17.5625" y1="-3.80578125" x2="15.4175" y2="3.424565625" width="0.1" layer="21" curve="200.155125"/>
+<wire x1="17.5625" y1="-30.4" x2="17.5625" y2="-3.8058" width="0.1" layer="21"/>
 <pad name="1" x="-11.125" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
 <pad name="2" x="-6.675" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
 <pad name="3" x="-2.225" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
@@ -316,9 +411,14 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/2" type="model" library_version="2">
+<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/3" type="model" library_version="4">
 <packageinstances>
 <packageinstance name="DTF13-12PA"/>
+</packageinstances>
+</package3d>
+<package3d name="ATF13-12PA" urn="urn:adsk.eagle:package:32679247/1" type="box" library_version="4">
+<packageinstances>
+<packageinstance name="ATF13-12PA"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -548,7 +648,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DTF13-12PA" urn="urn:adsk.eagle:component:32238113/2" prefix="X" library_version="2">
+<deviceset name="DTF13-12PA" urn="urn:adsk.eagle:component:32238113/4" prefix="X" library_version="4">
 <description>DTF13-12PA Connector System : Draht-an-Leiterplatte, Kabel-an-Gerät&lt;p&gt;
 Alias NummerZPF000000000130557&lt;br&gt;
 &lt;a href="http://www.te.com/deu-de/product-DTF13-12PA.html"&gt; Home-Page&lt;/a&gt;</description>
@@ -573,12 +673,34 @@ Alias NummerZPF000000000130557&lt;br&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32238112/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32238112/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="ARTIKEL_NR" value="522012"/>
 </technology>
+</technologies>
+</device>
+<device name="ATF" package="ATF13-12PA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32679247/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -657,12 +779,14 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WL-TMRW_5MM" urn="urn:adsk.eagle:footprint:19063502/1" library_version="2">
-<description>&lt;b&gt;WL-TMRW&lt;/b&gt;&lt;br&gt; THT Mono-color Round Waterclear,5mm without stopper</description>
+<package name="WL-TMRW_5MM" urn="urn:adsk.eagle:footprint:19063502/2" library_version="3">
+<description>&lt;b&gt;WL-TMRW THT Mono-color Round Waterclear
+
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;5mm without stoppe,THT, 2pins</description>
 <pad name="2" x="-1.27" y="0" drill="1"/>
 <pad name="1" x="1.27" y="0" drill="1"/>
-<text x="-0.06" y="3.72" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.083" y="-4.195" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="-3.9" y="0" size="1.016" layer="21" align="center">+</text>
 <text x="-3.9" y="0" size="1.016" layer="51" align="center">+</text>
 <wire x1="2.5" y1="1.44" x2="2.5" y2="-1.44" width="0.1" layer="51"/>
@@ -679,14 +803,16 @@ Copyright: Würth Elektronik</description>
 <vertex x="-3.2" y="-0.051196875" curve="-90.909385"/>
 </polygon>
 </package>
-<package name="WL-TMRW_5MM_STOPPER" urn="urn:adsk.eagle:footprint:19063500/1" library_version="2">
-<description>&lt;b&gt;WL-TMRW&lt;/b&gt;&lt;br&gt; THT Mono-color Round Waterclear,5mm with stopper</description>
+<package name="WL-TMRW_5MM_STOPPER" urn="urn:adsk.eagle:footprint:19063500/2" library_version="3">
+<description>&lt;b&gt;WL-TMRW THT Mono-color Round Waterclear
+
+&lt;/b&gt;&lt;br&gt;&lt;br&gt; 5mm with stopper, THT, 2pins</description>
 <pad name="2" x="-1.27" y="0" drill="1"/>
 <pad name="1" x="1.27" y="0" drill="1"/>
-<text x="-0.03" y="3.74" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.263" y="-4.185" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="-3.8" y="0" size="1.016" layer="21" align="center">+</text>
 <text x="-3.8" y="0" size="1.016" layer="51" align="center">+</text>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <wire x1="2.5" y1="1.44" x2="2.5" y2="-1.44" width="0.1" layer="51"/>
 <wire x1="2.5" y1="1.44" x2="2.5" y2="-1.44" width="0.1" layer="51" curve="300.527288"/>
 <wire x1="2.6" y1="1.38" x2="2.6" y2="-1.38" width="0.2" layer="21"/>
@@ -703,14 +829,18 @@ Copyright: Würth Elektronik</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="WL-TMRW_5MM" urn="urn:adsk.eagle:package:19063507/2" type="model" library_version="2">
-<description>&lt;b&gt;WL-TMRW&lt;/b&gt;&lt;br&gt; THT Mono-color Round Waterclear,5mm without stopper</description>
+<package3d name="WL-TMRW_5MM" urn="urn:adsk.eagle:package:19063507/3" type="model" library_version="3">
+<description>&lt;b&gt;WL-TMRW THT Mono-color Round Waterclear
+
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;5mm without stoppe,THT, 2pins</description>
 <packageinstances>
 <packageinstance name="WL-TMRW_5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="WL-TMRW_5MM_STOPPER" urn="urn:adsk.eagle:package:19063505/2" type="model" library_version="2">
-<description>&lt;b&gt;WL-TMRW&lt;/b&gt;&lt;br&gt; THT Mono-color Round Waterclear,5mm with stopper</description>
+<package3d name="WL-TMRW_5MM_STOPPER" urn="urn:adsk.eagle:package:19063505/3" type="model" library_version="3">
+<description>&lt;b&gt;WL-TMRW THT Mono-color Round Waterclear
+
+&lt;/b&gt;&lt;br&gt;&lt;br&gt; 5mm with stopper, THT, 2pins</description>
 <packageinstances>
 <packageinstance name="WL-TMRW_5MM_STOPPER"/>
 </packageinstances>
@@ -745,9 +875,8 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WL-TMRW_5MM" urn="urn:adsk.eagle:component:19063509/2" prefix="D" uservalue="yes" library_version="2">
+<deviceset name="WL-TMRW_5MM" urn="urn:adsk.eagle:component:19063509/3" prefix="D" library_version="3">
 <description>&lt;b&gt;WL-TMRW THT Mono-color Round Waterclear 
-&lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt; Characteristics
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
@@ -759,7 +888,6 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;Ultra high luminous efficacy 
 &lt;br&gt;Versatile mounting on PC boards 
 &lt;br&gt;With and without stopper 
-&lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt; Applications
 &lt;br&gt;&lt;br&gt;&lt;/b&gt; Indicator light 
@@ -777,10 +905,10 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14911v209%20Family_TMRW_THT.jpg" title="Enlarge picture"&gt;
 &lt;img src="https://www.we-online.com/catalog/media/o14911v209%20Family_TMRW_THT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WL-TMRW/"&gt;https://www.we-online.com/catalog/en/WL-TMRW/&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-TMRW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/en/WL-TMRW&lt;/a&gt;&lt;p&gt;
 
-&lt;/b&gt;Updated By Yingchun,Shan,2020-03-23&lt;br&gt;
-&lt;/b&gt;2020(C) Wurth Elektronik</description>
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -791,52 +919,56 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WL-TMRW/"&gt;https
 <connect gate="G$1" pin="-" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19063507/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19063507/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_151054BS04500">
-<attribute name="ABSTRAHLWINKEL" value="45°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054BS04500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Blue" constant="no"/>
-<attribute name="I-V-TYP" value="2000mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="465nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="461nm" constant="no"/>
-<attribute name="PART-NUMBER" value="151054BS04500" constant="no"/>
-<attribute name="V-F-TYP" value="2.7V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054BS04500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="465nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="2.7V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2000mcd"/>
+<attribute name="PART-NUMBER" value="151054BS04500"/>
+<attribute name="PEAK-WAVELENGTH" value="461nm"/>
+<attribute name="VALUE" value="151054BS04500"/>
+<attribute name="VIEWING-ANGLE" value="45°"/>
 </technology>
 <technology name="_151054GS03000">
-<attribute name="ABSTRAHLWINKEL" value="30°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054GS03000.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Green" constant="no"/>
-<attribute name="I-V-TYP" value="10000mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="522nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="515nm" constant="no"/>
-<attribute name="PART-NUMBER" value="151054GS03000" constant="no"/>
-<attribute name="V-F-TYP" value="3.4V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054GS03000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="10000mcd"/>
+<attribute name="PART-NUMBER" value="151054GS03000"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="151054GS03000"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
 </technology>
 <technology name="_151054RS03000">
-<attribute name="ABSTRAHLWINKEL" value="30°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054RS03000.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Red" constant="no"/>
-<attribute name="I-V-TYP" value="5000mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="623nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="631nm" constant="no"/>
-<attribute name="PART-NUMBER" value="151054RS03000" constant="no"/>
-<attribute name="V-F-TYP" value="1.9V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054RS03000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="623nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="1.9V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5000mcd"/>
+<attribute name="PART-NUMBER" value="151054RS03000"/>
+<attribute name="PEAK-WAVELENGTH" value="631nm"/>
+<attribute name="VALUE" value="151054RS03000"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
 </technology>
 <technology name="_151054YS04500">
-<attribute name="ABSTRAHLWINKEL" value="45°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151054YS04500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Yellow" constant="no"/>
-<attribute name="I-V-TYP" value="1500mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="590nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="592nm" constant="no"/>
-<attribute name="PART-NUMBER" value="151054YS04500" constant="no"/>
-<attribute name="V-F-TYP" value="2.1V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054YS04500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1500mcd"/>
+<attribute name="PART-NUMBER" value="151054YS04500"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="151054YS04500"/>
+<attribute name="VIEWING-ANGLE" value="45°"/>
 </technology>
 </technologies>
 </device>
@@ -846,52 +978,56 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WL-TMRW/"&gt;https
 <connect gate="G$1" pin="-" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19063505/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19063505/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_151053BS04500">
-<attribute name="ABSTRAHLWINKEL" value="45°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151053BS04500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Blue" constant="no"/>
-<attribute name="I-V-TYP" value="2000mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="465nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="461nm" constant="no"/>
-<attribute name="PART-NUMBER" value="151053BS04500" constant="no"/>
-<attribute name="V-F-TYP" value="2.7V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151053BS04500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="465nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="2.7V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2000mcd"/>
+<attribute name="PART-NUMBER" value="151053BS04500"/>
+<attribute name="PEAK-WAVELENGTH" value="461nm"/>
+<attribute name="VALUE" value="151053BS04500"/>
+<attribute name="VIEWING-ANGLE" value="45°"/>
 </technology>
 <technology name="_151053GS03000">
-<attribute name="ABSTRAHLWINKEL" value="30°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151053GS03000.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Green" constant="no"/>
-<attribute name="I-V-TYP" value="10000mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="522nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="515nm" constant="no"/>
-<attribute name="PART-NUMBER" value="151053GS03000" constant="no"/>
-<attribute name="V-F-TYP" value="3.4V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151053GS03000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="10000mcd"/>
+<attribute name="PART-NUMBER" value="151053GS03000"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="151053GS03000"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
 </technology>
 <technology name="_151053RS03000">
-<attribute name="ABSTRAHLWINKEL" value="30°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151053RS03000.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Red" constant="no"/>
-<attribute name="I-V-TYP" value="5000mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="623nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="631nm" constant="no"/>
-<attribute name="PART-NUMBER" value="151053RS03000" constant="no"/>
-<attribute name="V-F-TYP" value="1.9V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151053RS03000?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="623nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="1.9V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5000mcd"/>
+<attribute name="PART-NUMBER" value="151053RS03000"/>
+<attribute name="PEAK-WAVELENGTH" value="631nm"/>
+<attribute name="VALUE" value="151053RS03000"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
 </technology>
 <technology name="_151053YS04500">
-<attribute name="ABSTRAHLWINKEL" value="45°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/151053YS04500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Yellow" constant="no"/>
-<attribute name="I-V-TYP" value="1500mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="590nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="592nm" constant="no"/>
-<attribute name="PART-NUMBER" value="151053YS04500" constant="no"/>
-<attribute name="V-F-TYP" value="2.1V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151053YS04500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1500mcd"/>
+<attribute name="PART-NUMBER" value="151053YS04500"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="151053YS04500"/>
+<attribute name="VIEWING-ANGLE" value="45°"/>
 </technology>
 </technologies>
 </device>
@@ -5325,24 +5461,24 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </class>
 </classes>
 <parts>
-<part name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" deviceset="DTF13-12PA" device="" package3d_urn="urn:adsk.eagle:package:32238112/2"/>
-<part name="BLINKER_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Gelb"/>
-<part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Gelb"/>
+<part name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" deviceset="DTF13-12PA" device="" package3d_urn="urn:adsk.eagle:package:32238112/3"/>
+<part name="BLINKER_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054YS04500" value="151054YS04500"/>
+<part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054YS04500" value="151054YS04500"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
-<part name="LICHT_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054RS03000" value="Rot"/>
-<part name="LICHT_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054RS03000" value="Rot"/>
-<part name="BREMSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054RS03000" value="Rot"/>
-<part name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Grün"/>
-<part name="STROMVERSORGUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Grün"/>
-<part name="LADELEITUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Grün"/>
+<part name="LICHT_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054RS03000" value="151054RS03000"/>
+<part name="LICHT_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054RS03000" value="151054RS03000"/>
+<part name="BREMSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054RS03000" value="151054RS03000"/>
+<part name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054GS03000" value="151054GS03000"/>
+<part name="STROMVERSORGUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054GS03000" value="151054GS03000"/>
+<part name="LADELEITUNG" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054GS03000" value="151054GS03000"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
-<part name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/2" technology="_151054GS03000" value="Grün"/>
+<part name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054GS03000" value="151054GS03000"/>
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
