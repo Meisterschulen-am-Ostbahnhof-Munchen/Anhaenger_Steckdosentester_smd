@@ -5462,8 +5462,8 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </classes>
 <parts>
 <part name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" deviceset="DTF13-12PA" device="" package3d_urn="urn:adsk.eagle:package:32238112/3"/>
-<part name="BLINKER_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054GS03000" value="151054GS03000"/>
-<part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054GS03000" value="151054GS03000"/>
+<part name="BLINKER_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054YS04500" value="151054YS04500"/>
+<part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054YS04500" value="151054YS04500"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680"/>
 <part name="LICHT_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" deviceset="WL-TMRW_5MM" device="_WITHOUTSTOPPER" package3d_urn="urn:adsk.eagle:package:19063507/3" technology="_151054RS03000" value="151054RS03000"/>

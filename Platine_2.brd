@@ -1825,31 +1825,31 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-19" y="5" size="1.778" layer="25"/>
 <attribute name="VALUE" x="-18" y="-35.5" size="1.778" layer="27"/>
 </element>
-<element name="BLINKER_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054GS03000" x="-25.4" y="38.1" smashed="yes" rot="R90">
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054GS03000?ae" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DOMINANT-WAVELENGTH" value="522nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="EMITTING-COLOR" value="Green" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FORWARD-VOLTAGE" value="3.4V" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LUMINOUS-INTENSITY" value="10000mcd" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="BLINKER_LINKS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054YS04500" x="-25.4" y="38.1" smashed="yes" rot="R90">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054YS04500?ae" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EMITTING-COLOR" value="Yellow" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="1500mcd" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-25.4" y="41.91" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="151054GS03000" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PEAK-WAVELENGTH" value="515nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="151054GS03000" x="-21.205" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
-<attribute name="VIEWING-ANGLE" value="30°" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART-NUMBER" value="151054YS04500" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054YS04500" x="-21.205" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="45°" x="-25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054GS03000" x="25.4" y="38.1" smashed="yes" rot="R90">
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054GS03000?ae" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DOMINANT-WAVELENGTH" value="522nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="EMITTING-COLOR" value="Green" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FORWARD-VOLTAGE" value="3.4V" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LUMINOUS-INTENSITY" value="10000mcd" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="BLINKER_RECHTS" library="Wurth_LEDs_WL-TMRW" library_urn="urn:adsk.eagle:library:19063499" package="WL-TMRW_5MM" package3d_urn="urn:adsk.eagle:package:19063507/3" value="151054YS04500" x="25.4" y="38.1" smashed="yes" rot="R90">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/151054YS04500?ae" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EMITTING-COLOR" value="Yellow" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LUMINOUS-INTENSITY" value="1500mcd" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.4" y="41.91" size="0.8128" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="151054GS03000" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PEAK-WAVELENGTH" value="515nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="151054GS03000" x="29.595" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
-<attribute name="VIEWING-ANGLE" value="30°" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART-NUMBER" value="151054YS04500" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="151054YS04500" x="29.595" y="38.017" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
+<attribute name="VIEWING-ANGLE" value="45°" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="680" x="-31.75" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="-33.0454" y="33.02" size="0.9906" layer="25" ratio="10" rot="R90"/>
