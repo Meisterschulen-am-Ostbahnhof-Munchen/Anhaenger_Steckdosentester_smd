@@ -6150,28 +6150,29 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 </classes>
 <parts>
 <part name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" deviceset="DTF13-12PA" device="" package3d_urn="urn:adsk.eagle:package:32238112/3"/>
-<part name="BLINKER_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
-<part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
+<part name="BLINKER_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120YS82500" value="156120YS82500"/>
+<part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120YS82500" value="156120YS82500"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="LICHT_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
 <part name="LICHT_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
 <part name="BREMSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
-<part name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
-<part name="STROMVERSORGUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
-<part name="LADELEITUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
+<part name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
+<part name="STROMVERSORGUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
+<part name="LADELEITUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
-<part name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
+<part name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="MBRS130LT3" device="" package3d_urn="urn:adsk.eagle:package:43404/2"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="MBRS130LT3" device="" package3d_urn="urn:adsk.eagle:package:43404/2"/>
+<part name="D3" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
 </parts>
 <sheets>
 <sheet>
@@ -6376,6 +6377,10 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <instance part="R9" gate="G$1" x="142.24" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="140.7414" y="85.09" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="145.542" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D3" gate="G$1" x="20.32" y="109.22" smashed="yes">
+<attribute name="NAME" x="20.872" y="113.592" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="20.932" y="105.492" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
