@@ -6172,7 +6172,6 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="MBRS130LT3" device="" package3d_urn="urn:adsk.eagle:package:43404/2"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="MBRS130LT3" device="" package3d_urn="urn:adsk.eagle:package:43404/2"/>
-<part name="D3" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
 </parts>
 <sheets>
 <sheet>
@@ -6377,10 +6376,6 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <instance part="R9" gate="G$1" x="142.24" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="140.7414" y="85.09" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="145.542" y="85.09" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="D3" gate="G$1" x="20.32" y="109.22" smashed="yes">
-<attribute name="NAME" x="20.872" y="113.592" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="20.932" y="105.492" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>

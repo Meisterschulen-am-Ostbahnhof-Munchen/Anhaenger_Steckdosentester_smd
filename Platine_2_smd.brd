@@ -2220,19 +2220,6 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="5" x="-3.302" y="9.017" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="-6.731" y="6.858" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="D3" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" package="WL-SMRW_1206_DOME" package3d_urn="urn:adsk.eagle:package:19040155/3" value="156120VS82500" x="-46.99" y="-40.64" smashed="yes">
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" x="-46.99" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120VS82500?ae" x="-46.99" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="DOMINANT-WAVELENGTH" value="573nm" x="-46.99" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="EMITTING-COLOR" value="Bright Green" x="-46.99" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="FORWARD-VOLTAGE" value="2V" x="-46.99" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="LUMINOUS-INTENSITY" value="1050mcd" x="-46.99" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-46.99" y="-39.14" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value="156120VS82500" x="-46.99" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="PEAK-WAVELENGTH" value="575nm" x="-46.99" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-46.99" y="-43.34" size="1.27" layer="27" align="bottom-center"/>
-<attribute name="VIEWING-ANGLE" value="20°" x="-46.99" y="-40.64" size="1.778" layer="27" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="BLINKER_LINKS_1">
