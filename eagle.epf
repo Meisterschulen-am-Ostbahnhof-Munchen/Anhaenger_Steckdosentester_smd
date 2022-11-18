@@ -810,6 +810,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:179"
 UsedLibraryUrn="urn:adsk.eagle:library:414"
 UsedLibraryUrn="urn:adsk.eagle:library:416"
 UsedLibraryUrn="urn:adsk.eagle:library:415"
+UsedLibraryUrn="urn:adsk.eagle:library:32238108"
 UsedLibraryUrn="urn:adsk.eagle:library:180"
 UsedLibraryUrn="urn:adsk.eagle:library:181"
 UsedLibraryUrn="urn:adsk.eagle:library:182"
@@ -829,12 +830,13 @@ UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
 UsedLibrary="ISO1724.lbr"
+UsedLibrary="ISO11446.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Number=1
-File="ISO1724_DOSE_TEST.sch"
-View="40.4727 41.1451 98.4672 126.541"
+Number=2
+File="Platine_3.sch"
+View="-16.256 -14.986 168.656 103.886"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -873,7 +875,6 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 40.4727 41.1451 98.4672 126.541"
 Sheet="1"
 
 [Win_2]

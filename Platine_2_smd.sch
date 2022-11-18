@@ -233,14 +233,11 @@
 <libraries>
 <library name="DEUTSCH-PCB" urn="urn:adsk.eagle:library:32238108">
 <packages>
-<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/1" library_version="2">
+<package name="DTF13-12PA" urn="urn:adsk.eagle:footprint:32238109/2" library_version="4">
 <wire x1="-20.8024" y1="-24.7015" x2="-20.8024" y2="-11.2395" width="0.1" layer="21"/>
 <wire x1="-20.1674" y1="-25.3365" x2="-20.1674" y2="-10.6045" width="0" layer="51"/>
-<wire x1="-18.2075875" y1="2.996321875" x2="-14.6175" y2="4.2545" width="0.1" layer="21"/>
 <wire x1="-18.242" y1="-25.3365" x2="-18.242" y2="-10.6045" width="0" layer="51"/>
 <wire x1="-17.602" y1="-29.6545" x2="-17.602" y2="-25.429109375" width="0.1" layer="21"/>
-<wire x1="-17.602" y1="-25.429109375" x2="-17.602" y2="-10.511890625" width="0.1" layer="21"/>
-<wire x1="-17.602" y1="-10.511890625" x2="-17.602" y2="-3.14373125" width="0.1" layer="21"/>
 <wire x1="17.196" y1="-30.0355" x2="-17.221" y2="-30.0355" width="0.1" layer="21"/>
 <wire x1="17.577" y1="-29.6545" x2="-17.602" y2="-29.6545" width="0" layer="51"/>
 <wire x1="-15.2525" y1="1.7145" x2="-15.2525" y2="-4.0005" width="0" layer="51"/>
@@ -264,20 +261,12 @@
 <wire x1="15.037" y1="-30.0355" x2="15.037" y2="-4.0005" width="0" layer="51"/>
 <wire x1="15.2275" y1="1.7145" x2="15.2275" y2="-4.0005" width="0" layer="51"/>
 <wire x1="17.577" y1="-29.6545" x2="17.577" y2="-25.429109375" width="0.1" layer="21"/>
-<wire x1="17.577" y1="-25.429109375" x2="17.577" y2="-10.511890625" width="0.1" layer="21"/>
-<wire x1="17.577" y1="-10.511890625" x2="17.577" y2="-3.14373125" width="0.1" layer="21"/>
-<wire x1="-14.6175" y1="4.2545" x2="14.5925" y2="4.2545" width="0.1" layer="21"/>
 <wire x1="18.217" y1="-10.6045" x2="18.217" y2="-25.3365" width="0" layer="51"/>
 <wire x1="20.1424" y1="-25.3365" x2="20.1424" y2="-10.6045" width="0" layer="51"/>
 <wire x1="20.7774" y1="-24.7015" x2="20.7774" y2="-11.2395" width="0.1" layer="21"/>
-<wire x1="14.5925" y1="4.2545" x2="18.1825875" y2="2.996321875" width="0.1" layer="21"/>
-<wire x1="-15.142559375" y1="2.4537" x2="-17.602" y2="-3.14373125" width="0.1" layer="21" curve="211.344467"/>
-<wire x1="17.577" y1="-3.14373125" x2="15.117559375" y2="2.4537" width="0.1" layer="21" curve="211.344467"/>
 <wire x1="-12.7125" y1="4.2545" x2="-15.2525" y2="1.7145" width="0" layer="51" curve="90"/>
 <wire x1="15.2275" y1="1.7145" x2="12.6875" y2="4.2545" width="0" layer="51" curve="90"/>
 <wire x1="-17.602" y1="-25.429109375" x2="-17.60399375" y2="-25.3365" width="0" layer="21" curve="2.349574"/>
-<wire x1="-17.60399375" y1="-10.6045" x2="-17.602" y2="-10.511890625" width="0" layer="21" curve="2.349574"/>
-<wire x1="17.577" y1="-10.511890625" x2="17.57899375" y2="-10.6045" width="0" layer="21" curve="2.349577"/>
 <wire x1="17.57899375" y1="-25.3365" x2="17.577" y2="-25.429109375" width="0" layer="21" curve="2.34958"/>
 <wire x1="-20.8024" y1="-24.7015" x2="-20.1674" y2="-25.3365" width="0.1" layer="21" curve="90"/>
 <wire x1="-20.1674" y1="-10.6045" x2="-20.8024" y2="-11.2395" width="0.1" layer="21" curve="90"/>
@@ -290,6 +279,112 @@
 <wire x1="-2.75" y1="-22" x2="-2.75" y2="-29.5" width="0" layer="21"/>
 <wire x1="2.75" y1="-22" x2="2.75" y2="-29.5" width="0" layer="21"/>
 <wire x1="-2.75" y1="-22" x2="2.75" y2="-22" width="0" layer="21"/>
+<wire x1="16.0835" y1="-30.035496875" x2="17.1955" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="15.4455" y1="-29.527496875" x2="15.4455" y2="-12.083496875" width="0.1" layer="21"/>
+<wire x1="-14.4185" y1="-5.524496875" x2="14.3935" y2="-5.524496875" width="0.1" layer="21"/>
+<wire x1="-16.0185" y1="-12.128496875" x2="-15.8555" y2="-12.128496875" width="0.1" layer="21"/>
+<wire x1="-16.0185" y1="-12.128496875" x2="-16.0185" y2="-29.527496875" width="0.1" layer="21"/>
+<wire x1="-17.2215" y1="-30.035496875" x2="-16.6425" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="-17.6025" y1="-29.654496875" x2="-17.2215" y2="-30.035496875" width="0.1" layer="21" curve="90"/>
+<wire x1="-17.6025" y1="-3.143696875" x2="-17.6025" y2="-29.654496875" width="0.1" layer="21"/>
+<wire x1="-20.3325" y1="0.000003125" x2="-17.602" y2="-3.143728125" width="0.1" layer="21" curve="81.952154"/>
+<wire x1="-15.14256875" y1="2.4537125" x2="-20.332503125" y2="0.000003125" width="0.1" layer="21" curve="129.392074"/>
+<wire x1="-12.7125" y1="4.254503125" x2="-15.142559375" y2="2.453703125" width="0.1" layer="21" curve="73.080758"/>
+<wire x1="-12.7125" y1="4.254503125" x2="12.6875" y2="4.254503125" width="0.1" layer="21"/>
+<wire x1="15.117559375" y1="2.45369375" x2="12.6875" y2="4.2545" width="0.1" layer="21" curve="73.080961"/>
+<wire x1="20.3075" y1="0.000003125" x2="15.117559375" y2="2.453703125" width="0.1" layer="21" curve="129.392313"/>
+<wire x1="17.577" y1="-3.143728125" x2="20.3075" y2="0.000003125" width="0.1" layer="21" curve="81.952154"/>
+<wire x1="17.5765" y1="-29.654496875" x2="17.5765" y2="-3.143696875" width="0.1" layer="21"/>
+<wire x1="17.1955" y1="-30.035496875" x2="17.5765" y2="-29.654496875" width="0.1" layer="21" curve="90"/>
+<pad name="1" x="-11.125" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="2" x="-6.675" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="3" x="-2.225" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="4" x="2.225" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="5" x="6.675" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="6" x="11.125" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="7" x="11.125" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="8" x="6.675" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="9" x="2.225" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="10" x="-2.225" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="11" x="-6.675" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<pad name="12" x="-11.125" y="-2.2225" drill="1.8" diameter="2.4" rot="R90"/>
+<text x="-19" y="5" size="1.778" layer="25">&gt;NAME</text>
+<text x="-18" y="-35.5" size="1.778" layer="27">&gt;VALUE</text>
+<text x="-18" y="-33" size="1.524" layer="27">&gt;ARTIKEL_NR</text>
+<text x="-13.25" y="2.3" size="2" layer="21" font="vector" align="center">1</text>
+<text x="13.85" y="2.35" size="2" layer="21" font="vector" align="center">6</text>
+<text x="14.25" y="-2.15" size="2" layer="21" font="vector" align="center">7</text>
+<text x="-14.1" y="-2.3" size="2" layer="21" font="vector" align="center">12</text>
+<hole x="-17.1575" y="0" drill="3"/>
+<hole x="17.1325" y="0" drill="3"/>
+<circle x="-17.1575" y="0" radius="3" width="0.127" layer="22"/>
+<circle x="17.1325" y="0" radius="3" width="0.127" layer="22"/>
+</package>
+<package name="ATF13-12PA" urn="urn:adsk.eagle:footprint:32679242/1" library_version="4">
+<wire x1="-20.8024" y1="-24.7015" x2="-20.8024" y2="-11.2395" width="0.1" layer="21"/>
+<wire x1="-20.1674" y1="-25.3365" x2="-20.1674" y2="-10.6045" width="0" layer="51"/>
+<wire x1="-18.242" y1="-25.3365" x2="-18.242" y2="-10.6045" width="0" layer="51"/>
+<wire x1="-17.602" y1="-29.6545" x2="-17.602" y2="-25.429109375" width="0.1" layer="21"/>
+<wire x1="17.196" y1="-30.0355" x2="-17.221" y2="-30.0355" width="0.1" layer="21"/>
+<wire x1="17.577" y1="-29.6545" x2="-17.602" y2="-29.6545" width="0" layer="51"/>
+<wire x1="-15.2525" y1="1.7145" x2="-15.2525" y2="-4.0005" width="0" layer="51"/>
+<wire x1="-15.062" y1="-30.0355" x2="-15.062" y2="-4.0005" width="0" layer="51"/>
+<wire x1="-12.7125" y1="4.2545" x2="-12.7125" y2="-4.0005" width="0" layer="51"/>
+<wire x1="-20.1674" y1="-25.3365" x2="-17.60399375" y2="-25.3365" width="0.1" layer="21"/>
+<wire x1="17.57899375" y1="-25.3365" x2="20.1424" y2="-25.3365" width="0.1" layer="21"/>
+<wire x1="-20.8024" y1="-24.7015" x2="-17.602" y2="-24.7015" width="0" layer="51"/>
+<wire x1="-20.8024" y1="-11.2395" x2="-17.602" y2="-11.2395" width="0" layer="51"/>
+<wire x1="17.577" y1="-11.2395" x2="20.7774" y2="-11.2395" width="0" layer="51"/>
+<wire x1="-20.1674" y1="-10.6045" x2="-17.60399375" y2="-10.6045" width="0.1" layer="21"/>
+<wire x1="17.57899375" y1="-10.6045" x2="20.1424" y2="-10.6045" width="0.1" layer="21"/>
+<wire x1="17.577" y1="-4.6355" x2="-17.602" y2="-4.6355" width="0" layer="51"/>
+<wire x1="16.942" y1="-4.0005" x2="15.2275" y2="-4.0005" width="0" layer="51"/>
+<wire x1="15.2275" y1="-4.0005" x2="15.037" y2="-4.0005" width="0" layer="51"/>
+<wire x1="15.037" y1="-4.0005" x2="12.6875" y2="-4.0005" width="0" layer="51"/>
+<wire x1="12.6875" y1="-4.0005" x2="-16.967" y2="-4.0005" width="0" layer="51"/>
+<wire x1="12.6875" y1="4.2545" x2="12.6875" y2="-4.0005" width="0" layer="51"/>
+<wire x1="-15.2525" y1="1.7145" x2="15.2275" y2="1.7145" width="0" layer="51"/>
+<wire x1="15.037" y1="-30.0355" x2="15.037" y2="-4.0005" width="0" layer="51"/>
+<wire x1="15.2275" y1="1.7145" x2="15.2275" y2="-4.0005" width="0" layer="51"/>
+<wire x1="17.577" y1="-29.6545" x2="17.577" y2="-25.429109375" width="0.1" layer="21"/>
+<wire x1="18.217" y1="-10.6045" x2="18.217" y2="-25.3365" width="0" layer="51"/>
+<wire x1="20.1424" y1="-25.3365" x2="20.1424" y2="-10.6045" width="0" layer="51"/>
+<wire x1="20.7774" y1="-24.7015" x2="20.7774" y2="-11.2395" width="0.1" layer="21"/>
+<wire x1="-12.7125" y1="4.2545" x2="-15.2525" y2="1.7145" width="0" layer="51" curve="90"/>
+<wire x1="15.2275" y1="1.7145" x2="12.6875" y2="4.2545" width="0" layer="51" curve="90"/>
+<wire x1="-17.602" y1="-25.429109375" x2="-17.60399375" y2="-25.3365" width="0" layer="21" curve="2.349574"/>
+<wire x1="17.57899375" y1="-25.3365" x2="17.577" y2="-25.429109375" width="0" layer="21" curve="2.34958"/>
+<wire x1="-20.8024" y1="-24.7015" x2="-20.1674" y2="-25.3365" width="0.1" layer="21" curve="90"/>
+<wire x1="-20.1674" y1="-10.6045" x2="-20.8024" y2="-11.2395" width="0.1" layer="21" curve="90"/>
+<wire x1="20.1424" y1="-25.3365" x2="20.7774" y2="-24.7015" width="0.1" layer="21" curve="90"/>
+<wire x1="20.7774" y1="-11.2395" x2="20.1424" y2="-10.6045" width="0.1" layer="21" curve="90"/>
+<wire x1="17.577" y1="-4.6355" x2="16.942" y2="-4.0005" width="0" layer="51" curve="90"/>
+<wire x1="-16.967" y1="-4.0005" x2="-17.602" y2="-4.6355" width="0" layer="51" curve="90"/>
+<wire x1="17.196" y1="-30.0355" x2="17.577" y2="-29.6545" width="0.1" layer="21" curve="90"/>
+<wire x1="-17.602" y1="-29.6545" x2="-17.221" y2="-30.0355" width="0.1" layer="21" curve="90"/>
+<wire x1="-2.75" y1="-22" x2="-2.75" y2="-29.5" width="0" layer="21"/>
+<wire x1="2.75" y1="-22" x2="2.75" y2="-29.5" width="0" layer="21"/>
+<wire x1="-2.75" y1="-22" x2="2.75" y2="-22" width="0" layer="21"/>
+<wire x1="16.0835" y1="-30.035496875" x2="17.1955" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="-17.2215" y1="-30.035496875" x2="-16.6425" y2="-30.035496875" width="0.1" layer="21"/>
+<wire x1="-17.6025" y1="-29.654496875" x2="-17.2215" y2="-30.035496875" width="0.1" layer="21" curve="90"/>
+<wire x1="17.1955" y1="-30.035496875" x2="17.5765" y2="-29.654496875" width="0.1" layer="21" curve="90"/>
+<wire x1="15.5255" y1="-30.4" x2="17.5625" y2="-30.4" width="0.1" layer="21"/>
+<wire x1="15.5255" y1="-30.4" x2="15.5255" y2="-12.15" width="0.1" layer="21"/>
+<wire x1="14.6715" y1="-12.15" x2="15.5255" y2="-12.15" width="0.1" layer="21"/>
+<wire x1="14.6715" y1="-12.15" x2="14.6715" y2="-5.8" width="0.1" layer="21"/>
+<wire x1="-14.6975" y1="-5.8" x2="14.6715" y2="-5.8" width="0.1" layer="21"/>
+<wire x1="-14.6975" y1="-12.15" x2="-14.6975" y2="-5.8" width="0.1" layer="21"/>
+<wire x1="-16.2715" y1="-12.15" x2="-14.6975" y2="-12.15" width="0.1" layer="21"/>
+<wire x1="-16.2715" y1="-12.15" x2="-16.2715" y2="-30.4" width="0.1" layer="21"/>
+<wire x1="-17.5875" y1="-30.4" x2="-16.2715" y2="-30.4" width="0.1" layer="21"/>
+<wire x1="-17.5875" y1="-3.8058" x2="-17.5875" y2="-30.4" width="0.1" layer="21"/>
+<wire x1="-15.44251875" y1="3.42458125" x2="-17.5875" y2="-3.8057875" width="0.1" layer="21" curve="200.15478"/>
+<wire x1="-15.4425" y1="4.5" x2="-15.4425" y2="3.4246" width="0.1" layer="21"/>
+<wire x1="-15.4425" y1="4.5" x2="15.4175" y2="4.5" width="0.1" layer="21"/>
+<wire x1="15.4175" y1="3.4246" x2="15.4175" y2="4.5" width="0.1" layer="21"/>
+<wire x1="17.5625" y1="-3.80578125" x2="15.4175" y2="3.424565625" width="0.1" layer="21" curve="200.155125"/>
+<wire x1="17.5625" y1="-30.4" x2="17.5625" y2="-3.8058" width="0.1" layer="21"/>
 <pad name="1" x="-11.125" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
 <pad name="2" x="-6.675" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
 <pad name="3" x="-2.225" y="2.2225" drill="1.8" diameter="2.4" rot="R90"/>
@@ -316,9 +411,14 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/2" type="model" library_version="2">
+<package3d name="DTF13-12PA" urn="urn:adsk.eagle:package:32238112/3" type="model" library_version="4">
 <packageinstances>
 <packageinstance name="DTF13-12PA"/>
+</packageinstances>
+</package3d>
+<package3d name="ATF13-12PA" urn="urn:adsk.eagle:package:32679247/1" type="box" library_version="4">
+<packageinstances>
+<packageinstance name="ATF13-12PA"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -548,7 +648,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DTF13-12PA" urn="urn:adsk.eagle:component:32238113/2" prefix="X" library_version="2">
+<deviceset name="DTF13-12PA" urn="urn:adsk.eagle:component:32238113/4" prefix="X" library_version="4">
 <description>DTF13-12PA Connector System : Draht-an-Leiterplatte, Kabel-an-Gerät&lt;p&gt;
 Alias NummerZPF000000000130557&lt;br&gt;
 &lt;a href="http://www.te.com/deu-de/product-DTF13-12PA.html"&gt; Home-Page&lt;/a&gt;</description>
@@ -573,12 +673,34 @@ Alias NummerZPF000000000130557&lt;br&gt;
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32238112/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32238112/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="ARTIKEL_NR" value="522012"/>
 </technology>
+</technologies>
+</device>
+<device name="ATF" package="ATF13-12PA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32679247/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5224,36 +5346,12 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:footprint:19040146/1" library_version="2">
-<description>&lt;B&gt;WL-SMRW&lt;/B&gt;&lt;BR&gt; SMT Mono-color Reverse mount Waterclear,1206 dome,3.2x1.6x1.85mm(LXWXH)
-&lt;BR&gt;&lt;BR&gt;Normal use</description>
-<smd name="1" x="-1.75" y="0" dx="1.6" dy="1.5" layer="1" rot="R90"/>
-<smd name="2" x="1.75" y="0" dx="1.6" dy="1.5" layer="1" rot="R90"/>
-<text x="0.02" y="1.4" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.38" y="-1.88" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="3.2" y="-0.1" size="0.6096" layer="21" align="center">+</text>
-<text x="3.2" y="-0.1" size="0.6096" layer="51" align="center">+</text>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-0.7" y1="-0.9" x2="0.7" y2="-0.9" width="0.2" layer="21"/>
-<wire x1="-0.7" y1="0.9" x2="0.7" y2="0.9" width="0.2" layer="21"/>
-<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.127" layer="21"/>
-<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.127" layer="51"/>
-<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.127" layer="51"/>
-<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.127" layer="51"/>
-<polygon width="0.1" layer="39">
-<vertex x="-2.7" y="1.1"/>
-<vertex x="2.7" y="1.1"/>
-<vertex x="2.7" y="-1.1"/>
-<vertex x="-2.7" y="-1.1"/>
-</polygon>
-</package>
-<package name="WL-SMRW_1206_DOME_REV" urn="urn:adsk.eagle:footprint:19040145/1" library_version="2">
-<description>&lt;B&gt;WL-SMRW&lt;/B&gt;&lt;BR&gt; SMT Mono-color Reverse mount Waterclear,1206 dome,3.2x1.6x1.85mm(LXWXH)
+<package name="WL-SMRW_1206_DOME_REV" urn="urn:adsk.eagle:footprint:19040145/2" library_version="4">
+<description>&lt;B&gt;WL-SMRW SMT Mono-color Reverse mount Waterclea
+
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;Size 1206 dome, SMT, 2pins
+&lt;BR&gt;3.2x1.6x1.85mm(LXWXH)
+
 &lt;BR&gt;&lt;BR&gt;Reverse use</description>
 <smd name="1" x="-1.7" y="0" dx="0.1" dy="0.1" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="2" x="1.7" y="0" dx="0.1" dy="0.1" layer="1" rot="R90" stop="no" cream="no"/>
@@ -5471,25 +5569,63 @@ Copyright: Würth Elektronik</description>
 <vertex x="1.33" y="-0.626"/>
 <vertex x="1.317" y="-0.653"/>
 </polygon>
-<text x="-0.1" y="1.7" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.2" y="-2.2" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="2.9" y="0" size="0.6096" layer="21" align="center">+</text>
-<text x="2.9" y="0" size="0.6096" layer="51" align="center">+</text>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="3.2" y="0" size="1.016" layer="51" align="center">+</text>
+</package>
+<package name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:footprint:19040146/2" library_version="4">
+<description>&lt;B&gt;WL-SMRW SMT Mono-color Reverse mount Waterclea
+
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;Size 1206 dome, SMT, 2pins
+&lt;BR&gt;3.2x1.6x1.85mm(LXWXH)
+
+&lt;BR&gt;&lt;BR&gt;Normal use</description>
+<smd name="1" x="-1.75" y="0" dx="1.5" dy="1.6" layer="1"/>
+<smd name="2" x="1.75" y="0" dx="1.5" dy="1.6" layer="1"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="-0.9" x2="0.7" y2="-0.9" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="0.9" x2="0.7" y2="0.9" width="0.2" layer="21"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.127" layer="51"/>
+<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.127" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.7" y="1.1"/>
+<vertex x="2.7" y="1.1"/>
+<vertex x="2.7" y="-1.1"/>
+<vertex x="-2.7" y="-1.1"/>
+</polygon>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="3.2" y="0" size="1.016" layer="51" align="center">+</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:package:19040155/2" type="model" library_version="2">
-<description>&lt;B&gt;WL-SMRW&lt;/B&gt;&lt;BR&gt; SMT Mono-color Reverse mount Waterclear,1206 dome,3.2x1.6x1.85mm(LXWXH)
-&lt;BR&gt;&lt;BR&gt;Normal use</description>
-<packageinstances>
-<packageinstance name="WL-SMRW_1206_DOME"/>
-</packageinstances>
-</package3d>
-<package3d name="WL-SMRW_1206_DOME_REV" urn="urn:adsk.eagle:package:19040154/2" type="model" library_version="2">
-<description>&lt;B&gt;WL-SMRW&lt;/B&gt;&lt;BR&gt; SMT Mono-color Reverse mount Waterclear,1206 dome,3.2x1.6x1.85mm(LXWXH)
+<package3d name="WL-SMRW_1206_DOME_REV" urn="urn:adsk.eagle:package:19040154/3" type="model" library_version="4">
+<description>&lt;B&gt;WL-SMRW SMT Mono-color Reverse mount Waterclea
+
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;Size 1206 dome, SMT, 2pins
+&lt;BR&gt;3.2x1.6x1.85mm(LXWXH)
+
 &lt;BR&gt;&lt;BR&gt;Reverse use</description>
 <packageinstances>
 <packageinstance name="WL-SMRW_1206_DOME_REV"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:package:19040155/3" type="model" library_version="4">
+<description>&lt;B&gt;WL-SMRW SMT Mono-color Reverse mount Waterclea
+
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;Size 1206 dome, SMT, 2pins
+&lt;BR&gt;3.2x1.6x1.85mm(LXWXH)
+
+&lt;BR&gt;&lt;BR&gt;Normal use</description>
+<packageinstances>
+<packageinstance name="WL-SMRW_1206_DOME"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -5523,11 +5659,11 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:component:19040163/2" prefix="D" uservalue="yes" library_version="2">
+<deviceset name="WL-SMRW_1206_DOME" urn="urn:adsk.eagle:component:19040163/3" prefix="D" uservalue="yes" library_version="4">
 <description>&lt;b&gt;WL-SMRW SMD Mono-color Reverse mount Waterclear
 &lt;br&gt;
-&lt;br&gt;
 &lt;br&gt;Characteristics
+&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;Small size &amp; thin body for space saving
 &lt;br&gt;Ideal for narrow space applications
 &lt;br&gt;Wide viewing angle
@@ -5537,8 +5673,8 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;To emit light through a small cut-out hole in PCB
 &lt;br&gt;Compatible with automatic placement machine
 &lt;br&gt;
-&lt;br&gt;
 &lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
 &lt;br&gt;&lt;/b&gt;Front panels indicators
 &lt;br&gt;LCD backlighting
 &lt;br&gt;Keypad backlighting
@@ -5548,12 +5684,12 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35733v209%20Family_WL-SMRW_neu.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o35733v209%20Family_WL-SMRW_neu.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMRW?m"&gt;http://katalog.we-online.de/en/led/WL-SMRW?m&lt;/a&gt;&lt;p&gt;
-&lt;br&gt;
-&lt;br&gt;
-Updated By Yingchun,Shan,2020-03-19&lt;br&gt;
-&lt;br&gt;2020 (C) Wurth Elektronik</description>
+&lt;img src="https://www.we-online.com/catalog/media/o35733v209%20Family_WL-SMRW_neu.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;&lt;br&gt;
+
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMRW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMRW&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu 2022-06-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="LED" x="-2.54" y="0"/>
 </gates>
@@ -5564,162 +5700,176 @@ Updated By Yingchun,Shan,2020-03-19&lt;br&gt;
 <connect gate="G$1" pin="-" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19040155/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19040155/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_156120AS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120AS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Amber" constant="no"/>
-<attribute name="I-V-TYP" value="2200mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="605nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="609nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120AS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120AS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="605nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2200mcd"/>
+<attribute name="PART-NUMBER" value="156120AS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="609nm"/>
+<attribute name="VALUE" value="156120AS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120AS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120AS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Amber" constant="no"/>
-<attribute name="I-V-TYP" value="2200mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="605nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="609nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120AS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120AS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="605nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2200mcd"/>
+<attribute name="PART-NUMBER" value="156120AS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="609nm"/>
+<attribute name="VALUE" value="156120AS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120BS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120BS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Blue" constant="no"/>
-<attribute name="I-V-TYP" value="700mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="470nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="465nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120BS82500" constant="no"/>
-<attribute name="V-F-TYP" value="3.2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120BS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="700mcd"/>
+<attribute name="PART-NUMBER" value="156120BS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="156120BS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120BS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120BS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Blue" constant="no"/>
-<attribute name="I-V-TYP" value="700mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="470nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="465nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120BS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="3.2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120BS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="700mcd"/>
+<attribute name="PART-NUMBER" value="156120BS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="156120BS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120GS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120GS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Green" constant="no"/>
-<attribute name="I-V-TYP" value="1500mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="525nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="520nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120GS82500" constant="no"/>
-<attribute name="V-F-TYP" value="3.3V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120GS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.3V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1500mcd"/>
+<attribute name="PART-NUMBER" value="156120GS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="520nm"/>
+<attribute name="VALUE" value="156120GS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120GS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120GS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Green" constant="no"/>
-<attribute name="I-V-TYP" value="1500mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="525nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="520nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120GS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="3.3V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120GS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.3V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1500mcd"/>
+<attribute name="PART-NUMBER" value="156120GS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="520nm"/>
+<attribute name="VALUE" value="156120GS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120RS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120RS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Red" constant="no"/>
-<attribute name="I-V-TYP" value="1100mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="624nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="632nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120RS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120RS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="624nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1100mcd"/>
+<attribute name="PART-NUMBER" value="156120RS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="632nm"/>
+<attribute name="VALUE" value="156120RS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120RS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120RS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Red" constant="no"/>
-<attribute name="I-V-TYP" value="1100mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="624nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="632nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120RS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120RS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="624nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1100mcd"/>
+<attribute name="PART-NUMBER" value="156120RS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="632nm"/>
+<attribute name="VALUE" value="156120RS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120SS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Super Red" constant="no"/>
-<attribute name="I-V-TYP" value="900mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120SS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120SS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="900mcd"/>
+<attribute name="PART-NUMBER" value="156120SS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="645nm"/>
+<attribute name="VALUE" value="156120SS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120SS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Super Red" constant="no"/>
-<attribute name="I-V-TYP" value="900mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120SS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120SS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="900mcd"/>
+<attribute name="PART-NUMBER" value="156120SS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="645nm"/>
+<attribute name="VALUE" value="156120SS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120VS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120VS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Bright Green" constant="no"/>
-<attribute name="I-V-TYP" value="1050mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="573nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="575nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120VS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120VS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="573nm"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1050mcd"/>
+<attribute name="PART-NUMBER" value="156120VS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="575nm"/>
+<attribute name="VALUE" value="156120VS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120VS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120VS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Bright Green" constant="no"/>
-<attribute name="I-V-TYP" value="1050mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="573nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="575nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120VS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120VS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="573nm"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1050mcd"/>
+<attribute name="PART-NUMBER" value="156120VS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="575nm"/>
+<attribute name="VALUE" value="156120VS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120YS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120YS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Yellow" constant="no"/>
-<attribute name="I-V-TYP" value="1400mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="589nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="591nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120YS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120YS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="589nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1400mcd"/>
+<attribute name="PART-NUMBER" value="156120YS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="591nm"/>
+<attribute name="VALUE" value="156120YS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120YS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120YS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Yellow" constant="no"/>
-<attribute name="I-V-TYP" value="1400mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="589nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="591nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120YS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120YS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="589nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1400mcd"/>
+<attribute name="PART-NUMBER" value="156120YS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="591nm"/>
+<attribute name="VALUE" value="156120YS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 </technologies>
 </device>
@@ -5729,162 +5879,176 @@ Updated By Yingchun,Shan,2020-03-19&lt;br&gt;
 <connect gate="G$1" pin="-" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19040154/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19040154/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_156120AS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120AS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Amber" constant="no"/>
-<attribute name="I-V-TYP" value="2200mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="605nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="609nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120AS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120AS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="605nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2200mcd"/>
+<attribute name="PART-NUMBER" value="156120AS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="609nm"/>
+<attribute name="VALUE" value="156120AS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120AS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120AS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Amber" constant="no"/>
-<attribute name="I-V-TYP" value="2200mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="605nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="609nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120AS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120AS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="605nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2200mcd"/>
+<attribute name="PART-NUMBER" value="156120AS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="609nm"/>
+<attribute name="VALUE" value="156120AS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120BS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120BS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Blue" constant="no"/>
-<attribute name="I-V-TYP" value="700mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="470nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="465nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120BS82500" constant="no"/>
-<attribute name="V-F-TYP" value="3.2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120BS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="700mcd"/>
+<attribute name="PART-NUMBER" value="156120BS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="156120BS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120BS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120BS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Blue" constant="no"/>
-<attribute name="I-V-TYP" value="700mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="470nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="465nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120BS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="3.2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120BS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="700mcd"/>
+<attribute name="PART-NUMBER" value="156120BS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="156120BS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120GS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120GS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Green" constant="no"/>
-<attribute name="I-V-TYP" value="1500mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="525nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="520nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120GS82500" constant="no"/>
-<attribute name="V-F-TYP" value="3.3V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120GS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.3V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1500mcd"/>
+<attribute name="PART-NUMBER" value="156120GS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="520nm"/>
+<attribute name="VALUE" value="156120GS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120GS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="InGaN" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120GS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Green" constant="no"/>
-<attribute name="I-V-TYP" value="1500mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="525nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="520nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120GS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="3.3V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120GS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.3V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1500mcd"/>
+<attribute name="PART-NUMBER" value="156120GS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="520nm"/>
+<attribute name="VALUE" value="156120GS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120RS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120RS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Red" constant="no"/>
-<attribute name="I-V-TYP" value="1100mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="624nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="632nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120RS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120RS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="624nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1100mcd"/>
+<attribute name="PART-NUMBER" value="156120RS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="632nm"/>
+<attribute name="VALUE" value="156120RS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120RS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120RS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Red" constant="no"/>
-<attribute name="I-V-TYP" value="1100mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="624nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="632nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120RS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120RS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="624nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1100mcd"/>
+<attribute name="PART-NUMBER" value="156120RS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="632nm"/>
+<attribute name="VALUE" value="156120RS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120SS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Super Red" constant="no"/>
-<attribute name="I-V-TYP" value="900mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120SS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120SS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="900mcd"/>
+<attribute name="PART-NUMBER" value="156120SS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="645nm"/>
+<attribute name="VALUE" value="156120SS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120SS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120SS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Super Red" constant="no"/>
-<attribute name="I-V-TYP" value="900mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="630nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="645nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120SS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120SS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="900mcd"/>
+<attribute name="PART-NUMBER" value="156120SS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="645nm"/>
+<attribute name="VALUE" value="156120SS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120VS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120VS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Bright Green" constant="no"/>
-<attribute name="I-V-TYP" value="1050mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="573nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="575nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120VS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120VS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="573nm"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1050mcd"/>
+<attribute name="PART-NUMBER" value="156120VS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="575nm"/>
+<attribute name="VALUE" value="156120VS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120VS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120VS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Bright Green" constant="no"/>
-<attribute name="I-V-TYP" value="1050mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="573nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="575nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120VS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120VS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="573nm"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1050mcd"/>
+<attribute name="PART-NUMBER" value="156120VS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="575nm"/>
+<attribute name="VALUE" value="156120VS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120YS82500">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120YS82500.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Yellow" constant="no"/>
-<attribute name="I-V-TYP" value="1400mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="589nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="591nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120YS82500" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120YS82500?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="589nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1400mcd"/>
+<attribute name="PART-NUMBER" value="156120YS82500"/>
+<attribute name="PEAK-WAVELENGTH" value="591nm"/>
+<attribute name="VALUE" value="156120YS82500"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 <technology name="_156120YS82500P">
-<attribute name="ABSTRAHLWINKEL" value="20°" constant="no"/>
-<attribute name="CHIP-TECHNOLOGY" value="AlInGaP" constant="no"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/156120YS82500P.pdf" constant="no"/>
-<attribute name="EMITTING-COLOR" value="Yellow" constant="no"/>
-<attribute name="I-V-TYP" value="1400mcd" constant="no"/>
-<attribute name="LAMDA-DOM-TYP" value="589nm" constant="no"/>
-<attribute name="LAMDA-PEAK-TYP" value="591nm" constant="no"/>
-<attribute name="PART-NUMBER" value="156120YS82500P" constant="no"/>
-<attribute name="V-F-TYP" value="2V" constant="no"/>
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/156120YS82500P?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="589nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1400mcd"/>
+<attribute name="PART-NUMBER" value="156120YS82500P"/>
+<attribute name="PEAK-WAVELENGTH" value="591nm"/>
+<attribute name="VALUE" value="156120YS82500P"/>
+<attribute name="VIEWING-ANGLE" value="20°"/>
 </technology>
 </technologies>
 </device>
@@ -5985,24 +6149,24 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 </class>
 </classes>
 <parts>
-<part name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" deviceset="DTF13-12PA" device="" package3d_urn="urn:adsk.eagle:package:32238112/2"/>
-<part name="BLINKER_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" technology="_156120SS82500" value="Gelb"/>
-<part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" technology="_156120SS82500" value="Gelb"/>
+<part name="X2" library="DEUTSCH-PCB" library_urn="urn:adsk.eagle:library:32238108" deviceset="DTF13-12PA" device="" package3d_urn="urn:adsk.eagle:package:32238112/3"/>
+<part name="BLINKER_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120YS82500" value="156120YS82500"/>
+<part name="BLINKER_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120YS82500" value="156120YS82500"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
-<part name="LICHT_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" technology="_156120SS82500" value="Rot"/>
-<part name="LICHT_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" technology="_156120SS82500" value="Rot"/>
-<part name="BREMSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" technology="_156120SS82500" value="Rot"/>
-<part name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" technology="_156120SS82500" value="Grün"/>
-<part name="STROMVERSORGUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" technology="_156120SS82500" value="Grün"/>
-<part name="LADELEITUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" technology="_156120SS82500" value="Grün"/>
+<part name="LICHT_LINKS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
+<part name="LICHT_RECHTS" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
+<part name="BREMSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/3" technology="_156120SS82500" value="156120SS82500"/>
+<part name="NEBELSCHLUSSLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
+<part name="STROMVERSORGUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
+<part name="LADELEITUNG" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
-<part name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_REV" package3d_urn="urn:adsk.eagle:package:19040154/2" technology="_156120SS82500" value="Grün"/>
+<part name="RUECKFAHRLEUCHTE" library="Wurth_LEDs_WL-SMRW" library_urn="urn:adsk.eagle:library:19040144" deviceset="WL-SMRW_1206_DOME" device="_NOR" package3d_urn="urn:adsk.eagle:package:19040155/3" technology="_156120VS82500" value="156120VS82500"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
