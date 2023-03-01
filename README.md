@@ -9,7 +9,7 @@ https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Anhaenger_Steckdosentest
 
 ## Stücklisten
 
-
+https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Anhaenger_Steckdosentester_smd/tree/master/BOM
 
 
 
