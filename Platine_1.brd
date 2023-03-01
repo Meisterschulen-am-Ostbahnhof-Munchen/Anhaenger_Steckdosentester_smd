@@ -230,7 +230,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:OVS_rEszTL-k1uMWt25XkA" pcbguid="b5ba1f36-5585-45fc-9277-3b06a7bb5b1e" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="dc1a46b1-dd90-4265-9e42-639327f4b12d" lastsyncedrevisionid="dc1a46b1-dd90-4265-9e42-639327f4b12d" lastboardhashguid="9834be97-7a46-f4b4-63ff-7f16f5bad2aa" lastpushedtime="2023-03-01T12:03:26Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyMjAzMTc1MDgxMzE4ODE" f3durn="urn:adsk.wipprod:dm.lineage:S1Ir0zAGRK6Gv3rXA6-dfQ" pcbguid="35714223-419c-4ed4-bedd-dacdf9cdee51" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="ee01ee2e-afc7-4b9e-b880-2e01d576aee5" lastsyncedrevisionid="ee01ee2e-afc7-4b9e-b880-2e01d576aee5" lastboardhashguid="9834be97-7a46-f4b4-63ff-7f16f5bad2aa" lastpushedtime="2023-03-01T12:08:20Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-44.45" y1="92.25" x2="-44.45" y2="-3.35" width="0" layer="20"/>
 <wire x1="-44.45" y1="-3.35" x2="-41.45" y2="-6.35" width="0" layer="20" curve="90"/>
