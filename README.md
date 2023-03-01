@@ -15,8 +15,9 @@ https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Anhaenger_Steckdosentest
 
 ### Platine_2
 
-![image](https://user-images.githubusercontent.com/69573151/222135214-47a4e233-57a9-4387-844a-3a8a9b8e95b9.png)
-![image](https://user-images.githubusercontent.com/69573151/222135305-657f91cb-d3b7-4de4-b406-bd9df5db9f94.png)
+![image](https://user-images.githubusercontent.com/69573151/222139998-ca982f1e-6adf-4c09-964f-0612d78010e1.png)
+![image](https://user-images.githubusercontent.com/69573151/222140043-5105fc7e-e0cb-4fec-8976-30d81c9a6e67.png)
+
 
 
 
