@@ -3,6 +3,16 @@ https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Anhaenger_Steckdosentest
 
 # Anhaenger_Steckdosentester SMD
 
+## 3D Modelle für Autodesk Inventor und Fusion 360:
+
+https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Anhaenger_Steckdosentester_smd/tree/master/3D
+
+## Stücklisten
+
+
+
+
+
 ## Platinen
 
 
