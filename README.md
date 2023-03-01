@@ -23,4 +23,5 @@ https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Anhaenger_Steckdosentest
 
 ## Montage
 
+![image](https://user-images.githubusercontent.com/69573151/222145164-f4e351be-b6b7-41fe-a610-1554577ea2f8.png)
 
