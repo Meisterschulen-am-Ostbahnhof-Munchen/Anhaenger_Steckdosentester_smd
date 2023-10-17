@@ -1,7 +1,13 @@
+# Anhaenger_Steckdosentester SMD
+
+![IMG20230206181445](https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Anhaenger_Steckdosentester_smd/assets/69573151/b25b96cf-815b-4e60-b117-0e40c8cecaf2)
+
+
+
 https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Anhaenger_Steckdosentester_smd/blob/master/README.md
 
 
-# Anhaenger_Steckdosentester SMD
+
 
 ## 3D Modelle für Autodesk Inventor und Fusion 360:
 
